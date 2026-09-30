@@ -110,4 +110,12 @@ h1, h2, h3, .resp b, .pack b { overflow-wrap: break-word; hyphens: auto; }
 .resp > div, .feature, .step, .price { min-width: 0; }
 @media (max-width: 480px) { .resp { grid-template-columns: 1fr; } .badge { min-width: 0; flex: 1; } }
 
-.pack .soon.hot { color: #FF8A1F; }
+/* Sesongtema (season.js) */
+.hero { position: relative; }
+.hero > .wrap { position: relative; z-index: 1; }
+.season-fx { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0; }
+[data-season] .hero { background: radial-gradient(55% 75% at 28% 22%, color-mix(in srgb, var(--season) 20%, transparent), transparent 72%); }
+.season-pill { display: inline-block; margin-bottom: 14px; padding: 5px 14px 4px; border: 2px solid var(--season, var(--lime)); border-radius: 999px; color: var(--season, var(--lime)); text-decoration: none; font-weight: 800; font-style: italic; text-transform: uppercase; font-size: 15px; letter-spacing: .5px; }
+.season-pill[hidden] { display: none; }
+.pack.featured img { outline: 3px solid var(--season, var(--lime)); outline-offset: 3px; border-radius: 12px; }
+.pack .soon.hot { color: var(--season, var(--lime)); }

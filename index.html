@@ -38,6 +38,7 @@
   <div class="wrap">
     <div>
       <img class="logo" src="/img/logo.png" alt="Get Busted-logoen">
+      <a class="season-pill" href="#pakker" hidden></a>
       <h1>Festspillet som styrer vorset</h1>
       <p class="lead">Én leser holder telefonen. Resten ser på hverandre, ikke på en skjerm. Over 1 600 kort, Rapid, hemmelige oppdrag og sangkort - og en oppsummering av kvelden dere kan dele etterpå.</p>
       <div class="badges" id="last-ned">
@@ -90,16 +91,16 @@
     <h2>Én for hver anledning</h2>
     <p class="lead">Hver pakke har 55 kort på hvert nivå. Halloween, Jul, Nach og Hytta er klare fra start, og så kommer en ny pakke hver uke utover høsten. Prøv 5 kort fra en hvilken som helst pakke gratis før du kjøper, og hver måned fyller vi på pakkene med nye kort om det som skjer.</p>
     <div class="packs">
-      <div class="pack"><img src="/img/cover_original.jpg" alt="" loading="lazy"><b>Original</b><span>50 gratis kort hver kveld</span></div>
-      <div class="pack"><img src="/img/cover_halloween.jpg" alt="" loading="lazy"><b>Halloween</b><span>Kostymer og skrekkfilm</span><i class="soon hot">Klar til halloween</i></div>
-      <div class="pack"><img src="/img/cover_jul.jpg" alt="" loading="lazy"><b>Jul</b><span>Julebord og nyttår</span></div>
-      <div class="pack"><img src="/img/cover_nach.jpg" alt="" loading="lazy"><b>Nach</b><span>Når klokka er tre</span></div>
-      <div class="pack"><img src="/img/cover_hytta.jpg" alt="" loading="lazy"><b>Hytta</b><span>Badstue og køyesenger</span></div>
-      <div class="pack"><img src="/img/cover_reise.jpg" alt="" loading="lazy"><b>Reise</b><span>Syden og ferieflørter</span><i class="soon">Kommer 5. nov</i></div>
-      <div class="pack"><img src="/img/cover_student.jpg" alt="" loading="lazy"><b>Student</b><span>Fadderuke og kollektiv</span><i class="soon">Kommer 12. nov</i></div>
-      <div class="pack"><img src="/img/cover_utdrikning.jpg" alt="" loading="lazy"><b>Utdrikningslag</b><span>For den som skal gifte seg</span><i class="soon">Kommer 19. nov</i></div>
-      <div class="pack"><img src="/img/cover_fotball.jpg" alt="" loading="lazy"><b>Fotball</b><span>Kampkveld og sportsbar</span><i class="soon">Kommer 21. nov</i></div>
-      <div class="pack"><img src="/img/cover_sport.jpg" alt="" loading="lazy"><b>Sport</b><span>Treningsgjengen og lagfesten</span><i class="soon">Kommer 3. des</i></div>
+      <div class="pack" data-pack="original"><img src="/img/cover_original.jpg" alt="" loading="lazy"><b>Original</b><span>50 gratis kort hver kveld</span></div>
+      <div class="pack" data-pack="halloween"><img src="/img/cover_halloween.jpg" alt="" loading="lazy"><b>Halloween</b><span>Kostymer og skrekkfilm</span></div>
+      <div class="pack" data-pack="jul"><img src="/img/cover_jul.jpg" alt="" loading="lazy"><b>Jul</b><span>Julebord og nyttår</span></div>
+      <div class="pack" data-pack="nach"><img src="/img/cover_nach.jpg" alt="" loading="lazy"><b>Nach</b><span>Når klokka er tre</span></div>
+      <div class="pack" data-pack="hytta"><img src="/img/cover_hytta.jpg" alt="" loading="lazy"><b>Hytta</b><span>Badstue og køyesenger</span></div>
+      <div class="pack" data-pack="reise" data-release="2026-11-05"><img src="/img/cover_reise.jpg" alt="" loading="lazy"><b>Reise</b><span>Syden og ferieflørter</span><i class="soon">Kommer 5. nov</i></div>
+      <div class="pack" data-pack="student" data-release="2026-11-12"><img src="/img/cover_student.jpg" alt="" loading="lazy"><b>Student</b><span>Fadderuke og kollektiv</span><i class="soon">Kommer 12. nov</i></div>
+      <div class="pack" data-pack="utdrikning" data-release="2026-11-19"><img src="/img/cover_utdrikning.jpg" alt="" loading="lazy"><b>Utdrikningslag</b><span>For den som skal gifte seg</span><i class="soon">Kommer 19. nov</i></div>
+      <div class="pack" data-pack="fotball" data-release="2026-11-21"><img src="/img/cover_fotball.jpg" alt="" loading="lazy"><b>Fotball</b><span>Kampkveld og sportsbar</span><i class="soon">Kommer 21. nov</i></div>
+      <div class="pack" data-pack="sport" data-release="2026-12-03"><img src="/img/cover_sport.jpg" alt="" loading="lazy"><b>Sport</b><span>Treningsgjengen og lagfesten</span><i class="soon">Kommer 3. des</i></div>
     </div>
     <div class="pricing">
       <div class="price"><div class="amt">0 kr</div><p>50 kort fra Original hver kveld. Gratis, uten å registrere deg.</p></div>
@@ -141,5 +142,6 @@
     <div>© 2026 Get Busted · Snikkerbua Holding AS, org.nr. 927 118 300 · For voksne 18+ · Drikk ansvarlig</div>
   </div>
 </footer>
+<script src="/season.js" defer></script>
 </body>
 </html>
