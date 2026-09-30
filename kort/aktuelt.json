@@ -1,0 +1,21 @@
+{
+  "title": "November 2026",
+  "updated": "2026-10-01",
+  "cards": [
+    { "id": "2611-01", "type": "pekeleken", "spice": 1, "text": "kjøper noe helt unødvendig på Black Friday bare fordi det var 70 % avslag" },
+    { "id": "2611-02", "type": "drikk_om", "spice": 1, "text": "handlet noe på Black Friday som fortsatt ligger i originalemballasjen" },
+    { "id": "2611-03", "type": "pekeleken", "spice": 1, "text": "har gitt opp Movember-barten allerede etter en uke" },
+    { "id": "2611-04", "type": "drikk_om", "spice": 2, "text": "gruer deg til julebordet på grunn av noe som skjedde på fjorårets" },
+    { "id": "2611-05", "type": "pekeleken", "spice": 2, "text": "blir årets julebordsnakkis på jobben" },
+    { "id": "2611-06", "type": "sannhet", "spice": 2, "text": "{spiller}: hva er det verste som har skjedd deg på et julebord?" },
+    { "id": "2611-07", "type": "pekeleken", "spice": 1, "text": "fortsatt kjører på sommerdekk når første snøen kommer" },
+    { "id": "2611-08", "type": "drikk_om", "spice": 1, "text": "allerede spist opp adventskalenderen før 1. desember" },
+    { "id": "2611-09", "type": "regel", "spice": 1, "text": "Mørketid: de neste 5 kortene må alle snakke nordnorsk. Den som ler, drikker 1" },
+    { "id": "2611-10", "type": "runde", "spice": 1, "text": "Nevn noe som gikk viralt i år. Den som gjentar eller stopper opp, drikker 2." },
+    { "id": "2611-11", "type": "pekeleken", "spice": 1, "text": "får den mest pinlige Spotify Wrapped i år" },
+    { "id": "2611-12", "type": "duell", "spice": 1, "text": "{spiller} mot {spiller2}: nevn flest ting dere har kjøpt på tilbud i november på 15 sekunder. Taper tar 3" },
+    { "id": "2611-13", "type": "drikk_om", "spice": 2, "text": "sendt en melding til en eks på Singles Day" },
+    { "id": "2611-14", "type": "navnekort", "spice": 1, "text": "{spiller}, spå hvem i rommet som blir sist hjemme fra julebordet i år. Den personen drikker 2" },
+    { "id": "2611-15", "type": "pekeleken", "spice": 2, "text": "lettest ville blitt med en kjendis hjem etter en fest" }
+  ]
+}
