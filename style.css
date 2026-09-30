@@ -71,7 +71,8 @@ section.alt { background: var(--bg2); }
 .pack { background: var(--card); border-radius: 14px; padding: 10px; }
 .pack img { border-radius: 8px; aspect-ratio: 300/419; object-fit: cover; width: 100%; }
 .pack b { display: block; font-weight: 900; font-style: italic; text-transform: uppercase; margin-top: 8px; font-size: 20px; }
-.pack span { color: var(--muted); font-size: 14px; }
+.pack span { display: block; color: var(--muted); font-size: 14px; }
+.pack .soon { display: inline-block; margin-top: 6px; font-style: normal; font-weight: 800; font-size: 12px; letter-spacing: .5px; text-transform: uppercase; color: var(--lime, #B7D147); border: 1.5px solid currentColor; border-radius: 999px; padding: 2px 8px; }
 .pricing { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 26px; }
 .price { background: var(--card); border-radius: var(--radius); padding: 22px; }
 .price .amt { font-weight: 900; font-style: italic; font-size: 48px; color: var(--lime); line-height: 1; }
