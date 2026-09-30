@@ -1,21 +1,47 @@
 {
-  "title": "November 2026",
+  "title": "Oktober/november 2026",
   "updated": "2026-10-01",
   "cards": [
-    { "id": "2611-01", "type": "pekeleken", "spice": 1, "text": "kjøper noe helt unødvendig på Black Friday bare fordi det var 70 % avslag" },
-    { "id": "2611-02", "type": "drikk_om", "spice": 1, "text": "handlet noe på Black Friday som fortsatt ligger i originalemballasjen" },
-    { "id": "2611-03", "type": "pekeleken", "spice": 1, "text": "har gitt opp Movember-barten allerede etter en uke" },
-    { "id": "2611-04", "type": "drikk_om", "spice": 2, "text": "gruer deg til julebordet på grunn av noe som skjedde på fjorårets" },
-    { "id": "2611-05", "type": "pekeleken", "spice": 2, "text": "blir årets julebordsnakkis på jobben" },
-    { "id": "2611-06", "type": "sannhet", "spice": 2, "text": "{spiller}: hva er det verste som har skjedd deg på et julebord?" },
-    { "id": "2611-07", "type": "pekeleken", "spice": 1, "text": "fortsatt kjører på sommerdekk når første snøen kommer" },
-    { "id": "2611-08", "type": "drikk_om", "spice": 1, "text": "allerede spist opp adventskalenderen før 1. desember" },
-    { "id": "2611-09", "type": "regel", "spice": 1, "text": "Mørketid: de neste 5 kortene må alle snakke nordnorsk. Den som ler, drikker 1" },
-    { "id": "2611-10", "type": "runde", "spice": 1, "text": "Nevn noe som gikk viralt i år. Den som gjentar eller stopper opp, drikker 2." },
-    { "id": "2611-11", "type": "pekeleken", "spice": 1, "text": "får den mest pinlige Spotify Wrapped i år" },
-    { "id": "2611-12", "type": "duell", "spice": 1, "text": "{spiller} mot {spiller2}: nevn flest ting dere har kjøpt på tilbud i november på 15 sekunder. Taper tar 3" },
-    { "id": "2611-13", "type": "drikk_om", "spice": 2, "text": "sendt en melding til en eks på Singles Day" },
-    { "id": "2611-14", "type": "navnekort", "spice": 1, "text": "{spiller}, spå hvem i rommet som blir sist hjemme fra julebordet i år. Den personen drikker 2" },
-    { "id": "2611-15", "type": "pekeleken", "spice": 2, "text": "lettest ville blitt med en kjendis hjem etter en fest" }
+    { "id": "2611-01", "pack": "original", "type": "pekeleken", "spice": 1, "text": "fortsatt snakker om VM-sommeren som om de spilte selv" },
+    { "id": "2611-02", "pack": "original", "type": "drikk_om", "spice": 1, "text": "ropt «Haaland!» i en situasjon som ikke hadde noe med fotball å gjøre" },
+    { "id": "2611-03", "pack": "original", "type": "drikk_om", "spice": 1, "text": "handlet noe på Black Friday som fortsatt ligger i originalemballasjen" },
+    { "id": "2611-04", "pack": "original", "type": "pekeleken", "spice": 1, "text": "har gitt opp Movember-barten allerede etter en uke" },
+    { "id": "2611-05", "pack": "original", "type": "regel", "spice": 1, "text": "Mørketid: de neste 5 kortene må alle snakke nordnorsk. Den som ler, drikker 1" },
+    { "id": "2611-06", "pack": "original", "type": "drikk_om", "spice": 2, "text": "sendt en melding til en eks på Singles Day" },
+    { "id": "2611-07", "pack": "original", "type": "runde", "spice": 1, "text": "Nevn noe som gikk viralt i år. Den som gjentar eller stopper opp, drikker 2." },
+
+    { "id": "2611-10", "pack": "fotball", "type": "pekeleken", "spice": 1, "text": "fortsatt ikke har kommet over at Norge røk mot England i kvartfinalen" },
+    { "id": "2611-11", "pack": "fotball", "type": "drikk_om", "spice": 1, "text": "felt en tåre av en fotballkamp i sommer" },
+    { "id": "2611-12", "pack": "fotball", "type": "regel", "spice": 1, "text": "VAR: de neste 5 kortene kan hvem som helst rope «VAR!» og kreve at forrige kort leses på nytt. Tar de feil, drikker de 2" },
+    { "id": "2611-13", "pack": "fotball", "type": "duell", "spice": 1, "text": "{spiller} mot {spiller2}: gjør den beste Haaland-jubelen. Bordet dømmer. Taper tar 3" },
+    { "id": "2611-14", "pack": "fotball", "type": "pekeleken", "spice": 1, "text": "plutselig heier på Glimt bare fordi de leder serien" },
+    { "id": "2611-15", "pack": "fotball", "type": "sannhet", "spice": 1, "text": "{spiller}: hvor mange timer VM-fotball så du i sommer, helt ærlig?" },
+
+    { "id": "2611-20", "pack": "sport", "type": "pekeleken", "spice": 1, "text": "ville tatt seks OL-gull i å ligge på sofaen" },
+    { "id": "2611-21", "pack": "sport", "type": "drikk_om", "spice": 1, "text": "sagt «nå begynner jeg å gå på ski» etter å ha sett Klæbo i OL" },
+    { "id": "2611-22", "pack": "sport", "type": "runde", "spice": 1, "text": "Nevn en nordmann som tok OL-gull i Milano i vinter. Den som gjentar eller stopper opp, drikker 2." },
+
+    { "id": "2611-30", "pack": "jul", "type": "pekeleken", "spice": 1, "text": "ser på julekalenderen for barn helt alene" },
+    { "id": "2611-31", "pack": "jul", "type": "drikk_om", "spice": 1, "text": "kjøpt julegaver på Black Friday og beholdt dem selv" },
+    { "id": "2611-32", "pack": "jul", "type": "pekeleken", "spice": 2, "text": "ender opp med å klemme sjefen på julebordet i år" },
+    { "id": "2611-33", "pack": "jul", "type": "sannhet", "spice": 1, "text": "{spiller}: hvor mye har du brukt på julegaver før advent i år?" },
+
+    { "id": "2611-40", "pack": "reise", "type": "pekeleken", "spice": 1, "text": "får flyet kansellert og havner på en helt annen strand enn planlagt" },
+    { "id": "2611-41", "pack": "reise", "type": "drikk_om", "spice": 1, "text": "kjøpt en Syden-tur bare fordi flybilletten kostet noen hundrelapper" },
+    { "id": "2611-42", "pack": "reise", "type": "duell", "spice": 1, "text": "{spiller} mot {spiller2}: nevn flest flyplasser dere har vært forsinket på, på 15 sekunder. Taper tar 3" },
+
+    { "id": "2611-50", "pack": "hytta", "type": "pekeleken", "spice": 1, "text": "skrur opp alle ovnene på hytta og lar noen andre betale strømmen" },
+    { "id": "2611-51", "pack": "hytta", "type": "drikk_om", "spice": 1, "text": "kranglet om strømregningen på hytta" },
+    { "id": "2611-52", "pack": "hytta", "type": "runde", "spice": 1, "text": "Nevn noe du alltid glemmer å ta med på hytta. Den som gjentar eller stopper opp, drikker 2." },
+
+    { "id": "2611-60", "pack": "student", "type": "pekeleken", "spice": 1, "text": "ville overlevd lengst på sovesal mens de venter på studentbolig" },
+    { "id": "2611-61", "pack": "student", "type": "drikk_om", "spice": 1, "text": "bodd et sted du ikke burde, bare for å slippe boligkøen" },
+    { "id": "2611-62", "pack": "student", "type": "navnekort", "spice": 1, "text": "{spiller}, hvem i rommet ville vært den verste romkameraten på sovesal? Den personen drikker 2" },
+
+    { "id": "2611-70", "pack": "nach", "type": "pekeleken", "spice": 1, "text": "fortsatt setter på 2016-låter på nachet som om det er i år" },
+    { "id": "2611-71", "pack": "nach", "type": "drikk_om", "spice": 2, "text": "sett VM-reprise klokka fire om natta på et nachspiel" },
+
+    { "id": "2611-80", "pack": "utdrikning", "type": "pekeleken", "spice": 1, "text": "ville tvunget utdrikningsgjengen til å se Norge-England på nytt" },
+    { "id": "2611-81", "pack": "utdrikning", "type": "navnekort", "spice": 1, "text": "{spiller}, gi bruden eller brudgommen et VM-kallenavn. Liker ikke bordet det, drikker du 2" }
   ]
 }
