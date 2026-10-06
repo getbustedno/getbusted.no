@@ -8,6 +8,7 @@
  * - «Kommer <dato»>-merkene forsvinner av seg selv når pakken er sluppet (data-release på flisen).
  * - Linjen over overskriften sier «... er med fra start» før LAUNCH og «... er ute» etterpå.
  * Test et tema: legg ?season=julebord (eller halloween, vinter ...) til i adressen.
+ * Samme fil brukes på getbusted.online: språket leses fra <html lang> (no, en, sv, da).
  */
 (function () {
   var LAUNCH = '2026-10-30'; // Flyttes lanseringen: endre datoen her.
@@ -25,6 +26,17 @@
     sommer:    { c: '#F2A93B', p: 'sun',      col: ['#F2A93B', '#FFE08A'], packs: ['sommer', 'reise'], k: 'Sommer' }
   };
   var STRONG = ['halloween', 'julebord', 'jul', 'paske'];
+  var LANG = (document.documentElement.lang || 'no').slice(0, 2);
+  var TX = {
+    no: { k: {}, isNew: 'Ny', hot: 'Aktuell nå', newPack: 'Ny pakke', out: ' er ute', ready: '-pakken er klar', start: '-pakken er med fra start' },
+    en: { k: { host: 'Autumn nights', halloween: 'Ready for Halloween', julebord: 'Office party season?', jul: 'Merry Christmas', nyttar: 'New Year', vinter: 'Winter', paske: 'Happy Easter', vaar: 'Spring', mai17: 'Spring', sommer: 'Summer' },
+          isNew: 'New', hot: 'In season', newPack: 'New pack', out: ' is out', ready: ' pack is ready', start: ' pack is in from day one' },
+    sv: { k: { host: 'Höstkvällar', halloween: 'Redo för halloween', julebord: 'Dags för julbord?', jul: 'God jul', nyttar: 'Gott nytt år', vinter: 'Vinter', paske: 'Glad påsk', vaar: 'Vår', mai17: 'Vår', sommer: 'Sommar' },
+          isNew: 'Ny', hot: 'Aktuell nu', newPack: 'Nytt paket', out: ' är ute', ready: '-paketet är klart', start: '-paketet är med från start' },
+    da: { k: { host: 'Efterårsaftener', halloween: 'Klar til halloween', julebord: 'Skal I til julefrokost?', jul: 'Glædelig jul', nyttar: 'Godt nytår', vinter: 'Vinter', paske: 'God påske', vaar: 'Forår', mai17: 'Forår', sommer: 'Sommer' },
+          isNew: 'Ny', hot: 'Aktuel nu', newPack: 'Ny pakke', out: ' er ude', ready: '-pakken er klar', start: '-pakken er med fra start' }
+  }[LANG] || null;
+  if (!TX) return;
 
   function easter(y) {
     var a = y % 19, b = Math.floor(y / 100), c = y % 100, d = Math.floor(b / 4), e = b % 4,
@@ -53,6 +65,8 @@
   var q = (location.search.match(/[?&]season=([a-z0-9]+)/) || [])[1];
   var season = S[q] ? q : seasonFor(now);
   var T = S[season];
+  if (LANG !== 'no' && season === 'mai17') T = S.vaar; // 17. mai bare på norsk
+  var kicker = TX.k[season] || T.k;
   var launched = now.getTime() >= at(LAUNCH);
   var root = document.documentElement;
   root.setAttribute('data-season', season);
@@ -89,13 +103,13 @@
   if (feat) {
     var el = tiles[feat.slug], first = tiles.original;
     if (first && first.nextElementSibling !== el) first.parentNode.insertBefore(el, first.nextSibling);
-    var b = document.createElement('i'); b.className = 'soon hot'; b.textContent = feat.why === 'ny' ? 'Ny' : 'Aktuell nå';
+    var b = document.createElement('i'); b.className = 'soon hot'; b.textContent = feat.why === 'ny' ? TX.isNew : TX.hot;
     el.appendChild(b); el.classList.add('featured');
     var pill = document.querySelector('.season-pill');
     if (pill) {
       var name = el.querySelector('b').textContent;
-      var kick = feat.why === 'ny' ? 'Ny pakke' : T.k;
-      pill.textContent = kick + (/[?!]$/.test(kick) ? ' ' : ' · ') + name + (launched ? (feat.why === 'ny' ? ' er ute' : '-pakken er klar') : '-pakken er med fra start') + ' ›';
+      var kick = feat.why === 'ny' ? TX.newPack : kicker;
+      pill.textContent = kick + (/[?!]$/.test(kick) ? ' ' : ' · ') + name + (launched ? (feat.why === 'ny' ? TX.out : TX.ready) : TX.start) + ' ›';
       pill.hidden = false;
     }
   }
