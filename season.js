@@ -58,6 +58,11 @@
   root.setAttribute('data-season', season);
   root.style.setProperty('--season', T.c);
 
+  // Seksjoner med sluttdato (julekalenderen): skjules etter datoen
+  document.querySelectorAll('[data-until]').forEach(function (el) {
+    if (now.getTime() >= at(el.getAttribute('data-until')) + 864e5) el.remove();
+  });
+
   // Logo med hatt
   if (T.hat) document.querySelectorAll('img.logo, .brand img').forEach(function (img) {
     img.src = '/img/logo_' + T.hat + '.png';
