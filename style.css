@@ -42,34 +42,36 @@ section.alt { background: var(--bg2); }
 .hero { padding: 64px 0 72px; overflow: hidden; background:
   radial-gradient(50% 60% at 78% 40%, rgba(183,209,71,.16), transparent 70%),
   radial-gradient(45% 55% at 15% 10%, color-mix(in srgb, var(--season, #B7D147) 18%, transparent), transparent 70%); }
-.hero .wrap { display: grid; grid-template-columns: 1.05fr .95fr; gap: 40px; align-items: center; }
+.hero .wrap { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
 .hero .logo { width: 150px; margin-bottom: 14px; filter: drop-shadow(0 0 24px rgba(183,209,71,.35)); }
 .hero .lead { margin: 20px 0 28px; }
 .hero .badges { display: flex; flex-wrap: wrap; gap: 12px; }
 .hero .note { margin-top: 16px; font-size: 15px; color: var(--muted); }
 
-.stage { position: relative; height: 600px; }
-.stage .cover { position: absolute; width: 210px; top: 120px; border-radius: 16px; box-shadow: 0 0 0 1.5px color-mix(in srgb, var(--c) 70%, transparent), 0 24px 60px -12px color-mix(in srgb, var(--c) 65%, transparent), 0 30px 60px rgba(0,0,0,.55); }
-.stage .cover.l { left: 0; transform: rotate(-12deg); }
-.stage .cover.r { right: 0; transform: rotate(11deg); top: 150px; }
-.stage .phone { left: 50%; top: 0; transform: translateX(-50%) rotate(2deg); width: 280px; position: absolute; z-index: 2; }
+.stage { position: relative; height: 560px; }
+.stage .cover, .stage .card img { position: absolute; border-radius: 16px; }
+.stage .cover { width: 230px; top: 90px; box-shadow: 0 0 0 1.5px color-mix(in srgb, var(--c) 70%, transparent), 0 24px 60px -12px color-mix(in srgb, var(--c) 65%, transparent), 0 30px 60px rgba(0,0,0,.55); }
+.stage .cover.l { left: 28px; transform: rotate(-11deg); }
+.stage .cover.r { right: 0; transform: rotate(10deg); top: 110px; }
+.stage .card img { position: relative; width: 100%; height: auto; border-radius: 22px; box-shadow: 0 0 0 2px rgba(183,209,71,.75), 0 0 60px -6px rgba(183,209,71,.55), 0 40px 80px rgba(0,0,0,.6); }
+.stage .card { position: absolute; left: 50%; top: 30px; width: 300px; transform: translateX(-50%) rotate(-2deg); z-index: 2; }
 .phone { border-radius: 44px; padding: 10px; background: linear-gradient(145deg, #3a3a3a, #121212); box-shadow: 0 0 0 1.5px #4a4a4a, 0 40px 80px rgba(0,0,0,.6), 0 0 80px rgba(183,209,71,.18); }
 .phone img { border-radius: 35px; width: 100%; height: auto; }
 @media (max-width: 900px) {
   .hero .wrap { grid-template-columns: 1fr; }
-  .stage { height: 520px; max-width: 460px; width: 100%; margin: 0 auto; }
-  .stage .phone { width: 240px; }
-  .stage .cover { width: 160px; top: 110px; }
-  .stage .cover.r { top: 140px; }
+  .stage { height: 470px; max-width: 460px; width: 100%; margin: 0 auto; }
+  .stage .card { width: 250px; }
+  .stage .cover { width: 180px; top: 80px; }
+  .stage .cover.r { top: 100px; }
 }
-@media (max-width: 420px) { .stage { height: 470px; } .stage .phone { width: 220px; } .stage .cover { width: 130px; } }
+@media (max-width: 420px) { .stage { height: 420px; } .stage .card { width: 220px; } .stage .cover { width: 150px; } }
 
 /* tall */
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: -24px; position: relative; z-index: 2; }
 .stats div { background: var(--card2); border: 1px solid var(--line); border-radius: 18px; padding: 18px 20px; text-align: center; }
 .stats b { display: block; font-weight: 900; font-style: italic; font-size: clamp(30px, 4vw, 44px); line-height: 1; color: var(--lime); text-transform: uppercase; }
 .stats span { color: var(--muted); font-size: 16px; }
-@media (max-width: 720px) { .stats { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 720px) { .stats { grid-template-columns: 1fr 1fr; margin-top: 12px; } }
 
 /* steg */
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 30px; }
