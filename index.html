@@ -16,13 +16,12 @@
 <meta name="theme-color" content="#191919">
 <link rel="icon" href="/img/favicon.png">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,700;0,800;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preload" href="/fonts/bsc-900Black_Italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/style.css">
-<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"609b5eda0e3d6e76f8ce1f20d947c406"})});</script>
+<script src="/samtykke.js" defer></script>
 </head>
 <body>
+<a class="skip" href="#innhold">Hopp til innholdet</a>
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="/"><img src="/img/logo.png" alt="">Get Busted</a>
@@ -39,7 +38,7 @@
   </div>
 </header>
 
-<main>
+<main id="innhold">
 <section class="hero">
   <div class="wrap">
     <div>
@@ -203,8 +202,8 @@
 
 <footer>
   <div class="wrap">
-    <div><a href="/personvern/">Personvern</a><a href="/hjelp/">Hjelp</a><a href="mailto:kontakt@getbusted.no">Kontakt</a><a href="https://www.instagram.com/getbusted.no/" rel="me">Instagram</a><a href="https://www.tiktok.com/@getbusted.no" rel="me">TikTok</a><a href="https://www.facebook.com/getbusted.no" rel="me">Facebook</a></div>
-    <div>© 2026 Get Busted · Snikkerbua Holding AS, org.nr. 927 118 300 · For voksne 18+</div>
+    <div class="footer-links"><a href="/vilkar/">Bruksvilkår</a><a href="/personvern/">Personvern</a><a href="/informasjonskapsler/" data-samtykke>Informasjonskapsler</a><a href="/kjop/">Kjøp og refusjon</a><a href="/hjelp/">Hjelp</a><a href="mailto:kontakt@getbusted.no">Kontakt</a><a href="https://www.instagram.com/getbusted.no/" rel="me">Instagram</a><a href="https://www.tiktok.com/@getbusted.no" rel="me">TikTok</a><a href="https://www.facebook.com/getbusted.no" rel="me">Facebook</a></div>
+    <div class="footer-firma">© 2026 Snikkerbua Holding AS · Org.nr. 927 118 300 · Voldgata 27, 2000 Lillestrøm · For voksne over 18 år</div>
   </div>
 </footer>
 <script src="/season.js" defer></script>
