@@ -36,7 +36,7 @@ else:
 FOOTER = f"""<footer>
   <div class="wrap">
     <div class="footer-links"><a href="/vilkar/">Bruksvilkår</a><a href="/personvern/">Personvern</a><a href="/informasjonskapsler/" data-samtykke>Informasjonskapsler</a><a href="/kjop/">Kjøp og refusjon</a><a href="/hjelp/">Hjelp</a><a href="mailto:{EPOST}">Kontakt</a><a href="https://www.instagram.com/getbusted.no/" rel="me">Instagram</a><a href="https://www.tiktok.com/@getbusted.no" rel="me">TikTok</a><a href="https://www.facebook.com/getbusted.no" rel="me">Facebook</a></div>
-    <div class="footer-firma">© 2026 {FIRMA} · Org.nr. {ORGNR} · {ADRESSE} · For voksne over 18 år</div>
+    <div class="footer-firma">© 2026 {FIRMA} · Org.nr. {ORGNR} · {ADRESSE} · For voksne, minst 18 år</div>
   </div>
 </footer>"""
 
@@ -83,7 +83,7 @@ PERSONVERN = f"""
   <li>Navnene dere skriver inn og innstillingene deres lagres bare på telefonen.</li>
   <li>Kjøp går gjennom Apple eller Google. Vi bruker RevenueCat til å holde styr på hvilke pakker du eier, med en tilfeldig ID uten navn.</li>
   <li>Nettsiden teller besøk med Metricool bare hvis du sier ja. Sier du nei, sendes ingenting.</li>
-  <li>Appen er for voksne over 18 år.</li>
+  <li>Appen er bare for personer som er minst 18 år.</li>
 </ul>
 
 <h2>Hvem er ansvarlig</h2>
@@ -93,7 +93,7 @@ PERSONVERN = f"""
 <h3>Det som lagres på telefonen din</h3>
 <ul>
   <li>Innstillinger: språk, tørstenivå og alkoholfri modus.</li>
-  <li>At du har bekreftet at du er over 18 år.</li>
+  <li>At du har bekreftet at du er minst 18 år.</li>
   <li>Spillernavn og status for kvelden som pågår, så dere kan fortsette der dere slapp.</li>
   <li>Tidligere kvelder (dato, spillernavn, antall kort, hvem som ble mest busted og vinnerlag, maks 200 kvelder) som brukes til oppsummeringen «Wrapped».</li>
   <li>Hvilke kjøp du eier (en kopi, så appen virker uten nett), status på julekalender, om appen har bedt om vurdering og om du har slått på pakkevarsler.</li>
@@ -150,7 +150,7 @@ PERSONVERN = f"""
 <p>RevenueCat lagrer data i USA, og overføringen bygger på EUs standardkontrakter (SCC). Nettsidene ligger hos GitHub Pages (USA), som er sertifisert under EU-US Data Privacy Framework. Apple og Google kan også behandle data i USA. Metricool lagrer data i EU/EØS. Du kan be om en kopi av garantiene ved å skrive til {MAIL}.</p>
 
 <h2>Aldersgrense og barn</h2>
-<p>Get Busted er kun for personer over 18 år. Appen ber deg bekrefte alderen ved første oppstart. Dette er en enkel bekreftelse, ikke en kontroll av alderen din. Vi samler ikke med vilje inn opplysninger om personer under 18 år. Oppdager vi det, sletter vi opplysningene. Er du forelder og tror barnet ditt har brukt appen, kontakt oss på {MAIL}.</p>
+<p>Get Busted er kun for personer som er minst 18 år. Appen ber deg bekrefte alderen ved første oppstart. Dette er en enkel bekreftelse, ikke en kontroll av alderen din. Vi samler ikke med vilje inn opplysninger om personer under 18 år. Oppdager vi det, sletter vi opplysningene. Er du forelder og tror barnet ditt har brukt appen, kontakt oss på {MAIL}.</p>
 
 <h2>Sikkerhet</h2>
 <p>Vi bruker leverandører som krypterer data under overføring, og vi lagrer så lite som mulig. Ingen løsning er helt sikker. Skjer det et brudd som gjelder deg, varsler vi Datatilsynet og deg etter reglene.</p>
@@ -172,8 +172,8 @@ VILKAR = f"""
 <h2>1. Hvem vi er</h2>
 <p>Get Busted leveres av {FIRMA}, org.nr. {ORGNR}, {ADRESSE}. E-post: {MAIL}.</p>
 
-<h2>2. For voksne over 18 år</h2>
-<p>Get Busted er et festspill for voksne. Du må være over 18 år for å bruke appen. Spillet kan spilles med eller uten alkohol, og alkoholfri modus (poeng i stedet for slurker) er alltid tilgjengelig.</p>
+<h2>2. Kun for voksne (18+)</h2>
+<p>Get Busted er et festspill for voksne. Du må være minst 18 år for å bruke appen. Spillet kan spilles med eller uten alkohol, og alkoholfri modus (poeng i stedet for slurker) er alltid tilgjengelig.</p>
 
 <h2>3. Spill ansvarlig</h2>
 <ul>
@@ -189,7 +189,7 @@ VILKAR = f"""
 <p>Appen er gratis å laste ned. Du får en personlig rett til å bruke appen og innholdet du har tilgang til på enhetene som er knyttet til samme Apple-ID eller Google-konto. Retten kan ikke selges eller overføres til andre. Bruken følger også Apples eller Googles vilkår for appen.</p>
 
 <h2>5. Innhold og rettigheter</h2>
-<p>Navnet Get Busted, logoen, kortene, tekstene, omslagene og resten av innholdet tilhører {FIRMA}. Du kan dele enkeltkort og oppsummeringer fra appen med delingsfunksjonen. Du kan ikke kopiere kortstokkene, selge innholdet videre, lage egne utgaver av spillet eller bruke innholdet kommersielt uten skriftlig samtykke.</p>
+<p>Navnet Get Busted, logoen, kortene, tekstene, omslagene og resten av innholdet tilhører {FIRMA}. Du kan dele enkeltkort og oppsummeringer fra appen med delingsfunksjonen. Du kan ikke kopiere kortene, selge innholdet videre, lage egne utgaver av spillet eller bruke innholdet kommersielt uten skriftlig samtykke.</p>
 
 <h2>6. Endringer i appen</h2>
 <p>Vi utvikler appen videre og kan legge til, endre eller ta bort kort, funksjoner og design. Vi tar ikke bort innhold du har betalt for, med mindre det er nødvendig, for eksempel fordi et kort viser seg å være krenkende eller i strid med loven. Da erstatter vi det med tilsvarende innhold. Oppdateringer kan være nødvendige for at appen skal virke.</p>
@@ -217,7 +217,7 @@ VILKAR = f"""
 # JURIDISK USIKKERT: (3) Om lanseringspris og senere prisøkning må merkes spesielt (prisopplysning, markedsføringsloven).
 # JURIDISK USIKKERT: (4) Reklamasjonsfrist og kontaktpunkt for digitale ytelser (digitalytelsesloven).
 KJOP = f"""
-<p>Denne siden gjelder kjøp i appen Get Busted. Selger er {FIRMA}, org.nr. {ORGNR}, {ADRESSE}, {MAIL}. Du må være over 18 år. Regler for bruk av appen står i <a href="/vilkar/">Bruksvilkår</a>.</p>
+<p>Denne siden gjelder kjøp i appen Get Busted. Selger er {FIRMA}, org.nr. {ORGNR}, {ADRESSE}, {MAIL}. Du må være minst 18 år. Regler for bruk av appen står i <a href="/vilkar/">Bruksvilkår</a>.</p>
 
 <h2>Kort fortalt</h2>
 <ul>
@@ -227,18 +227,17 @@ KJOP = f"""
 </ul>
 
 <h2>Hva du kjøper</h2>
-<p>Appen er gratis å laste ned og gir 50 kort fra Original gratis hver kveld. Du kan kjøpe temapakker, Get Fu**ed-nivået, Kveldspakke (én pakke og Get Fu**ed-nivået) og Busted+ (alle pakker). Prisen står i butikken før du bekrefter kjøpet, og inkluderer merverdiavgift. Prisen kan variere mellom land. Kjøpet er bindende når du har bekreftet det i butikken. Innholdet låses opp med en gang kjøpet er bekreftet, og appen husker kjøpet slik at du kan spille uten nett. Hva du får bruke innholdet til, står under Lisens i <a href="/vilkar/">Bruksvilkår</a>.</p>
+<p>Appen er gratis å laste ned og gir 50 kort fra Original gratis hver kveld. Du kan kjøpe temapakker, Get Fu**ed-nivået, Kveldspakke (én pakke og Get Fu**ed-nivået) og Busted+ (alle pakker). Prisen står i butikken før du bekrefter kjøpet, og inkluderer merverdiavgift. Prisen kan variere mellom land. Kjøpet er bindende når du har bekreftet det i butikken. Innholdet låses opp med en gang kjøpet er bekreftet, og appen husker kjøpet slik at du kan spille uten nett. Hva du får bruke innholdet til, står under Innhold og rettigheter i <a href="/vilkar/">Bruksvilkår</a>.</p>
 
 <h2>Busted+ og pakker som kommer</h2>
 <p>Busted+ gir tilgang til alle pakker i appen, også nye kortpakker og nye nivåer som {FIRMA} selv slipper i Get Busted-appen, så lenge vi tilbyr appen. Du betaler ikke ekstra for nye pakker som er en del av appens vanlige pakkeutvalg. Det gjelder ikke:</p>
 <ul>
   <li>en egen, separat app eller et annet spill</li>
-  <li>fysiske produkter, for eksempel en kortstokk</li>
   <li>innhold laget sammen med eller solgt av en tredjepart, hvis det er tydelig merket at det ikke er med i Busted+</li>
   <li>tidsbegrenset innhold som vi uttrykkelig har sagt er ekstra</li>
 </ul>
 <p>Vi bestemmer selv hvor mange pakker som slippes og når. Busted+ er et engangskjøp. Vi trekker aldri penger automatisk.</p>
-<p>Pakker med senere slippdato vises som «Kommer» og kan ikke kjøpes enkeltvis før de er sluppet. Busted+ låser dem opp automatisk på slippdatoen. Blir en pakke forsinket, låses den opp når den kommer. Har du kjøpt Busted+ og en varslet pakke ikke blir sluppet, kan du ta kontakt for et passende prisavslag.</p>
+<p>Pakker med senere slippdato vises som «Kommer» og kan ikke kjøpes enkeltvis før de er sluppet. Busted+ låser dem opp automatisk på slippdatoen. Blir en pakke forsinket, låses den opp når den kommer.</p>
 
 <h2>Pris og lanseringspris</h2>
 <p>{PRISTEKST}</p>
