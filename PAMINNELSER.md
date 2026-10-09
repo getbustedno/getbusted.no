@@ -15,7 +15,7 @@ Generatoren stopper med en feilmelding hvis den kjøres 1. januar 2027 eller sen
 
 ## Ved hvert pakkeslipp: oppdater kortantall og pakketall
 
-Forsiden (index.html: meta description, og:description, ingress og tallboksene) sier «Over 1 000 kort i 5 pakker, nye pakker hver uke». Oppdater tallene (kort og antall pakker) hver gang en ny pakke slippes, og sjekk at «nye pakker hver uke» fortsatt stemmer. Gjør det samme på getbusted.online (COUNTS og «1 000+» / «5 pakker» i build.py). Bildet img/og.jpg har «Over 1 000 kort i 5 pakker» på seg og må lages på nytt når tallene endres (Pillow, Barlow Semi Condensed 800 Italic, 1200x630). getbusted.online har ingen tall om pakker i og_*-bildene.
+Forsiden (index.html: meta description, og:description, ingress og tallboksene) sier «Over 1 000 kort i 5 pakker fra start og nye pakker utover høsten» (tallboksene: «1 000+ kort fra start», «5 pakker fra start, flere i høst»). Oppdater tallene hver gang en ny pakke slippes. Ikke lov «nye pakker hver uke». Gjør det samme på getbusted.online (COUNTS og «1 000+» / «5 pakker» i build.py). Bildet img/og.jpg har «Over 1 000 kort i 5 pakker» på seg og må lages på nytt når tallene endres (Pillow, Barlow Semi Condensed 800 Italic, 1200x630). getbusted.online har ingen tall om pakker i og_*-bildene.
 
 ## Fjernet i denne runden (kun-juridisk, oktober 2026)
 
