@@ -45,9 +45,7 @@
     box.setAttribute('role', 'region');
     box.setAttribute('aria-label', 'Samtykke til statistikk');
     box.innerHTML =
-      '<p class="consent-t">Vil du hjelpe oss med statistikk?</p>' +
-      '<p>Vi vil gjerne telle besøk med Metricool for å se hvilke sider som blir lest. Det settes ingen informasjonskapsler, men nettleseren sender blant annet IP-adressen din til Metricool. Sier du nei, sendes ingenting. ' +
-      '<a href="/informasjonskapsler/">Les mer</a></p>' +
+      '<p>Vi teller besøk anonymt med Metricool. Godta? <a href="/informasjonskapsler/">Les mer</a></p>' +
       '<div class="consent-b"><button type="button" data-v="0">Avslå</button><button type="button" data-v="1">Godta</button></div>';
     box.querySelectorAll('button').forEach(function (b) {
       b.addEventListener('click', function () { choose(b.getAttribute('data-v') === '1'); });
