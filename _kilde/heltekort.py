@@ -8,7 +8,7 @@ Bytt kort ved å endre KORT under og kjøre: python3 _kilde/heltekort.py
 Teksten ligger mellom <!--heltekort--> og <!--/heltekort--> i index.html og skrives om hver gang.
 
 KORT-ID-ER (til regelvakt, ordrett fra getbusted-merge/src/data/cards.json, lang no):
-  GB094 GB539 GB542 GB1167 GB051 GB261 GB1783 GB125
+  GB094 GB539 GB542 GB1167 GB122 GB536 GB244 GB125
 Valgt etter: pekeleken eller drikk_om, spice 1-2, ikke minPlayers, ingen {spiller}, ingen alkohol-, drikke-,
 skole-, sex- eller kjendisord, ikke på listen over kort uten markedsføring i regelvakt.md, ikke GB013.
 Overskrifter og bunntekst følger appen i alkoholfri modus (HEADERS sober i engine.ts, SOBER_RULES i i18n.ts).
@@ -24,9 +24,9 @@ KORT = [
     ('GB539', 'pek', 'har dyrest fjellutstyr og kortest turer'),
     ('GB542', 'pek', 'snorker så høyt at noen flytter ut i bilen'),
     ('GB1167', 'pek', 'sier de skal være offline på hytta og legger ut story tre ganger'),
-    ('GB051', 'drikk', 'sagt «i like måte» da servitøren sa «god appetitt»'),
-    ('GB261', 'drikk', 'tapt Whamageddon før desember var halvveis'),
-    ('GB1783', 'drikk', 'blitt spurt «hva er du utkledd som?» uten å være utkledd'),
+    ('GB122', 'pek', 'blir borte en halvtime og kommer tilbake med en ny bestevenn'),
+    ('GB536', 'pek', 'sovner først på hytta'),
+    ('GB244', 'pek', 'ville blitt kjent på TikTok av helt feil grunner'),
     ('GB125', 'pek', 'har den mest pinlige Spotify Wrapped'),
 ]
 
