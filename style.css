@@ -56,7 +56,7 @@ section.alt { background: var(--bg2); }
 
 .stage { position: relative; height: 560px; }
 .stage .cover, .stage .card img { position: absolute; border-radius: 16px; }
-.stage .cover { width: 230px; top: 90px; box-shadow: 0 0 0 1.5px color-mix(in srgb, var(--c) 70%, transparent), 0 24px 60px -12px color-mix(in srgb, var(--c) 65%, transparent), 0 30px 60px rgba(0,0,0,.55); }
+.stage .cover { width: 230px; height: auto; top: 90px; box-shadow: 0 0 0 1.5px color-mix(in srgb, var(--c) 70%, transparent), 0 24px 60px -12px color-mix(in srgb, var(--c) 65%, transparent), 0 30px 60px rgba(0,0,0,.55); }
 .stage .cover.l { left: 28px; transform: rotate(-11deg); }
 .stage .cover.r { right: 0; transform: rotate(10deg); top: 110px; }
 .stage .card img { position: relative; width: 100%; height: auto; border-radius: 22px; box-shadow: 0 0 0 2px rgba(183,209,71,.75), 0 0 60px -6px rgba(183,209,71,.55), 0 40px 80px rgba(0,0,0,.6); }
@@ -225,7 +225,7 @@ footer .footer-firma { color: var(--muted); }
 /* Landingssider per anledning */
 .hero.lp .wrap{grid-template-columns:1.3fr .7fr}
 .lp-stage{height:auto;min-height:0;display:flex;justify-content:center}
-.lp-stage .cover{position:relative;top:0;width:240px;transform:rotate(3deg)}
+.lp-stage .cover{position:relative;top:0;width:240px;height:auto;transform:rotate(3deg)}
 .features.three{grid-template-columns:repeat(3,1fr)}
 .lp-tips{margin-top:28px;background:var(--card2);border:1px solid var(--line);border-radius:var(--radius);padding:22px 26px}
 .lp-tips h3{font-size:22px;margin-bottom:6px}.lp-tips li{color:var(--muted)}
