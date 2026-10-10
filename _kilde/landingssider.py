@@ -7,7 +7,7 @@ SITE = 'https://getbusted.no'
 P = 'På tre - pek på den som'
 
 PAGES = [
- dict(slug='julebord', color='#E0473E', cover='cover_jul', pack='Jul', status='Ute nå',
+ dict(slug='julebord', color='#E0473E', cover='cover_jul', pack='Jul', status='Med fra start',
   title='Festspill til julebordet - Get Busted',
   desc='Festspill til julebordet med kollegaene? Get Busted har kort om sjefen, talene og mandagen etter. For voksne 18+, én telefon, 2-30 spillere.',
   h1=('Festspill til ', 'julebordet'),
@@ -24,7 +24,7 @@ PAGES = [
   faq=[('Passer det for et julebord med kollegaer?', 'Ja. Velg nivå Mild eller Frekk, så holder kortene seg på riktig side av HR. Get Fu**ed er for vennegjengen.'),
        ('Hvor mange kan spille?', 'Fra 2 til 30. På et stort bord får dere flere kort som gjelder alle samtidig.'),
        ('Hva koster Jul-pakka?', '49 kr som engangskjøp. Du kan prøve 5 kort gratis først, og Original har 50 gratis kort hver kveld.')]),
- dict(slug='hyttetur', color='#C7864A', cover='cover_hytta', pack='Hytta', status='Ute nå',
+ dict(slug='hyttetur', color='#C7864A', cover='cover_hytta', pack='Hytta', status='Med fra start',
   title='Spill til hytteturen - Get Busted',
   desc='Spill til hytteturen med vennegjengen: kort om badstua, gruppechatten og den som aldri tar oppvasken. Get Busted - festspill for voksne 18+, funker uten dekning.',
   h1=('Spill til ', 'hytteturen'),
@@ -59,7 +59,7 @@ PAGES = [
   faq=[('Når kommer Utdrikningslag-pakka?', '19. november. Fram til da kan dere spille Original, Jul, Nach, Hytta og Halloween.'),
        ('Passer det for både utdrikningslag for gutter og jenter?', 'Ja. Kortene handler om bryllupet og hovedpersonen, ikke om kjønn.'),
        ('Hva koster det?', '49 kr for pakka som engangskjøp, eller Busted+ for alt.')]),
- dict(slug='halloween', color='#FF8A1F', cover='cover_halloween', pack='Halloween', status='Ute nå',
+ dict(slug='halloween', color='#FF8A1F', cover='cover_halloween', pack='Halloween', status='Med fra start',
   title='Festspill til halloweenfesten - Get Busted',
   desc='Festspill til halloweenfesten: kort om kostymer, skrekkfilmer og den som ville dødd først. Get Busted - for voksne 18+, én telefon, 2-30 spillere.',
   h1=('Festspill til ', 'halloween'),
@@ -74,7 +74,7 @@ PAGES = [
          ('Sannhet', 'Torgeir: hvilket kostyme angrer du mest på? Beskriv det i detalj.'),
          ('Sannhet', 'Åsne: hvem i rommet har det beste kostymet i kveld, og hvem har det verste?')],
   tips=['Spill Halloween-pakka mens dere venter på at filmen skal starte.', 'Bruk lagspill med kostymelag mot kostymelag.', 'Ta Get Fu**ed-nivået når de siste gjestene har kommet.'],
-  faq=[('Er Halloween-pakka ute?', 'Ja, den er med fra start.'),
+  faq=[('Når kommer Halloween-pakka?', 'Den er med fra start, når appen kommer 30. oktober.'),
        ('Hvor mange kort er det?', 'Over 150 kort på norsk, fordelt på Mild, Frekk og Get Fu**ed.'),
        ('Hva koster den?', '49 kr som engangskjøp. Prøv 5 kort gratis først.')]),
 ]
