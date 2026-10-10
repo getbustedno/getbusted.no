@@ -86,6 +86,14 @@ NAV = '<header class="nav"><div class="wrap"><a class="brand" href="/"><img src=
 def others(cur):
     return ' · '.join(f'<a href="/{p["slug"]}/">{E(p["h1"][1].capitalize())}</a>' for p in PAGES if p['slug'] != cur)
 
+HREF = {'julebord': ('/christmas-party/', '/se/julbord/', '/dk/julefrokost/'), 'hyttetur': ('/cabin-weekend/', '/se/stugan/', '/dk/sommerhus/'), 'utdrikningslag': ('/stag-and-hen/', '/se/svensexa-mohippa/', '/dk/polterabend/')}
+
+def hreflang(slug, url):
+    if slug not in HREF: return ''
+    en, sv, da = HREF[slug]; o = 'https://getbusted.online'
+    return (f'<link rel="alternate" hreflang="no" href="{url}">\n<link rel="alternate" hreflang="en" href="{o}{en}">\n'
+            f'<link rel="alternate" hreflang="sv" href="{o}{sv}">\n<link rel="alternate" hreflang="da" href="{o}{da}">\n<link rel="alternate" hreflang="x-default" href="{o}{en}">\n')
+
 def page(p):
     url = f'{SITE}/{p["slug"]}/'
     cards = ''.join(f"<figure class='sample' style='--c:{p['color']}'><figcaption>{E(p['pack'])}</figcaption><p class='sample-head'>{E(h)}</p><blockquote>{E(t)}</blockquote></figure>" for h, t in p['cards'])
@@ -108,7 +116,7 @@ def page(p):
 <title>{E(p['title'])}</title>
 <meta name="description" content="{E(p['desc'])}">
 <link rel="canonical" href="{url}">
-<meta property="og:title" content="{E(p['title'])}">
+{hreflang(p["slug"], url)}<meta property="og:title" content="{E(p['title'])}">
 <meta property="og:description" content="{E(p['desc'])}">
 <meta property="og:image" content="{SITE}/img/og.jpg">
 <meta property="og:url" content="{url}">
