@@ -74,7 +74,7 @@ PAGES = [
          ('Sannhet', 'Torgeir: hvilket kostyme angrer du mest på? Beskriv det i detalj.'),
          ('Sannhet', 'Åsne: hvem i rommet har det beste kostymet i kveld, og hvem har det verste?')],
   tips=['Spill Halloween-pakka mens dere venter på at filmen skal starte.', 'Bruk lagspill med kostymelag mot kostymelag.', 'Ta Get Fu**ed-nivået når de siste gjestene har kommet.'],
-  faq=[('Når kommer Halloween-pakka?', 'Den er med fra start, når appen kommer 30. oktober.'),
+  faq=[('Når kommer Halloween-pakka?', 'Den er med fra start, når appen kommer 29. oktober.'),
        ('Hvor mange kort er det?', 'Over 150 kort på norsk, fordelt på Mild, Frekk og Get Fu**ed.'),
        ('Hva koster den?', '49 kr som engangskjøp. Prøv 5 kort gratis først.')]),
 ]
