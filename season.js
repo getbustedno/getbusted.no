@@ -13,8 +13,9 @@
 (function () {
   var LAUNCH = '2026-10-29'; // Flyttes lanseringen: endre datoen her.
   // Fra LAUNCH blir butikkmerkene (data-store) lenker, og data-launch-feltene får lanseringstekst. Test: ?launch=1
-  var STORE = { ios: 'https://apps.apple.com/no/app/id6822369497', play: 'https://play.google.com/store/apps/details?id=no.getbusted.app' };
-  var LT = { dl: 'Last ned fra', cta: 'Last ned', group: 'Ute nå', q: 'Hvor laster jeg ned appen?', a: 'Søk etter «Get Busted» i App Store eller Google Play, eller trykk på knappene øverst på siden.' };
+  // Plan B (26. okt 2026): Apple avviste 1.0, så ios er tom til iPhone-versjonen er godkjent. Lim inn https://apps.apple.com/no/app/id6822369497 da.
+  var STORE = { ios: '', play: 'https://play.google.com/store/apps/details?id=no.getbusted.app' };
+  var LT = { dl: 'Last ned fra', cta: 'Last ned', group: 'Ute nå', q: 'Hvor laster jeg ned appen?', a: STORE.ios ? 'Søk etter «Get Busted» i App Store eller Google Play, eller trykk på knappene øverst på siden.' : 'Søk etter «Get Busted» på Google Play, eller trykk på knappen øverst på siden. iPhone-versjonen kommer snart.' };
   var NEW_DAYS = 10;
   var S = {
     host:      { c: '#E08A3C', p: 'leaves',   col: ['#E08A3C', '#C8612E', '#D9A441', '#9C4A2A'], packs: ['hytta', 'nach'], k: 'Høstkvelder' },
@@ -89,7 +90,7 @@
       } else if (k === 'cta') {
         el.textContent = LT.cta;
         var ua = navigator.userAgent;
-        if (/iPhone|iPad/i.test(ua)) el.href = STORE.ios;
+        if (STORE.ios && /iPhone|iPad/i.test(ua)) el.href = STORE.ios;
         else if (/Android/i.test(ua)) el.href = STORE.play;
       } else if (LT[k]) el.textContent = LT[k];
     });
