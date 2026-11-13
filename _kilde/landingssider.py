@@ -103,7 +103,7 @@ NAV = '<header class="nav"><div class="wrap"><a class="brand" href="/"><img src=
 def others(cur):
     return ' · '.join(f'<a href="/{p["slug"]}/">{E(p["h1"][1].capitalize())}</a>' for p in PAGES if p['slug'] != cur)
 
-HREF = {'julebord': ('/christmas-party/', '/se/julbord/', '/dk/julefrokost/'), 'hyttetur': ('/cabin-weekend/', '/se/stugan/', '/dk/sommerhus/'), 'utdrikningslag': ('/stag-and-hen/', '/se/svensexa-mohippa/', '/dk/polterabend/')}
+HREF = {'julebord': ('/christmas-party/', '/se/julbord/', '/dk/julefrokost/'), 'jul-og-nyttar': ('/christmas-and-new-year/', '/se/jul-och-nyar/', '/dk/jul-og-nytaar/'), 'hyttetur': ('/cabin-weekend/', '/se/stugan/', '/dk/sommerhus/'), 'utdrikningslag': ('/stag-and-hen/', '/se/svensexa-mohippa/', '/dk/polterabend/')}
 
 def hreflang(slug, url):
     if slug not in HREF: return ''
