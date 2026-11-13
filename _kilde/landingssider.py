@@ -27,7 +27,7 @@ PAGES = [
  dict(slug='jul-og-nyttar', color='#E0473E', cover='cover_jul', pack='Jul, romjul og nyttår', status='Med fra start',
   title='Festspill til jul, romjul og nyttår - Get Busted',
   desc='Festspill for hele høytiden: julebordet, julaften, romjula og tolvslaget. Over 300 norske kort som følger kalenderen. Get Busted - for voksne 18+, én telefon, 2-30 spillere.',
-  h1=('Festspill til ', 'jul og nyttår'), h1sub='…og mye mer',
+  h1=('Festspill til ', 'jul og nyttår'), h1sub='…og alle andre festkvelder i året',
   lead='Fra julebordet i november til tolvslaget 31. desember. Pakka følger kalenderen: mer julebord i november, mer jul mot julaften, og mer romjul og nyttår jo nærmere tolvslaget dere kommer.',
   why=[('Hele høytiden i én pakke', 'Julebordet, julaften med familien, tredjedagsfesten hjemme i bygda, romjula på sofaen og nyttårsaften. Over 300 kort, skrevet for norsk jul.'),
        ('Riktig kort til riktig dag', 'Kortene som kommer først, skifter med datoen. Spiller dere 30. desember, handler det mest om romjul og tolvslaget.'),
