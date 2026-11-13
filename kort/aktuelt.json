@@ -1,6 +1,6 @@
 {
- "title": "Oktober/november 2026",
- "updated": "2026-10-01",
+ "title": "November 2026",
+ "updated": "2026-11-13",
  "cards": [
   {
    "id": "2611-01",
@@ -43,13 +43,6 @@
    "type": "drikk_om",
    "spice": 2,
    "text": "sendt en melding til en eks på Singles Day"
-  },
-  {
-   "id": "2611-07",
-   "pack": "original",
-   "type": "runde",
-   "spice": 1,
-   "text": "Nevn noe som gikk viralt i år. Den som gjentar eller stopper opp, drikker 2."
   },
   {
    "id": "2611-10",
@@ -106,13 +99,6 @@
    "type": "drikk_om",
    "spice": 1,
    "text": "sagt «nå begynner jeg å gå på ski» etter å ha sett Klæbo i OL"
-  },
-  {
-   "id": "2611-22",
-   "pack": "sport",
-   "type": "runde",
-   "spice": 1,
-   "text": "Nevn en nordmann som tok OL-gull i Milano i vinter. Den som gjentar eller stopper opp, drikker 2."
   },
   {
    "id": "2611-30",
@@ -178,13 +164,6 @@
    "text": "kranglet om strømregningen på hytta"
   },
   {
-   "id": "2611-52",
-   "pack": "hytta",
-   "type": "runde",
-   "spice": 1,
-   "text": "Nevn noe du alltid glemmer å ta med på hytta. Den som gjentar eller stopper opp, drikker 2."
-  },
-  {
    "id": "2611-60",
    "pack": "student",
    "type": "pekeleken",
@@ -232,6 +211,262 @@
    "type": "navnekort",
    "spice": 1,
    "text": "{spiller}, gi bruden eller brudgommen et VM-kallenavn. Liker ikke bordet det, drikker du 2"
+  },
+  {
+   "id": "2611-Gno1",
+   "lang": "no",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har allerede tatt fri 19. november «av helt andre grunner»"
+  },
+  {
+   "id": "2611-Gno2",
+   "lang": "no",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer til å være borte fra gruppechatten en hel uke etter 19. november"
+  },
+  {
+   "id": "2611-Gno3",
+   "lang": "no",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har sett en spilltrailer flere ganger enn du har ringt mora di i år"
+  },
+  {
+   "id": "2611-Gno4",
+   "lang": "no",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer til å forklare hele kartet for noen som ikke har spurt"
+  },
+  {
+   "id": "2611-Gno5",
+   "lang": "no",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "har valgt et spill foran en date"
+  },
+  {
+   "id": "2611-Gno6",
+   "lang": "no",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "har en kjæreste som blir «GTA-enke» denne høsten"
+  },
+  {
+   "id": "2611-Gno7",
+   "lang": "no",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har ventet så lenge på et spill at du har byttet jobb, bolig eller kjæreste i mellomtiden"
+  },
+  {
+   "id": "2611-Gno8",
+   "lang": "no",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "parkerer verst i virkeligheten, men tror de er proff i spillet"
+  },
+  {
+   "id": "2611-Gsv1",
+   "lang": "sv",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har redan tagit ledigt den 19 november ”av helt andra skäl”"
+  },
+  {
+   "id": "2611-Gsv2",
+   "lang": "sv",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "försvinner från gruppchatten i en hel vecka efter 19 november"
+  },
+  {
+   "id": "2611-Gsv3",
+   "lang": "sv",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har sett en speltrailer fler gånger än du har ringt din mamma i år"
+  },
+  {
+   "id": "2611-Gsv4",
+   "lang": "sv",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer att förklara hela kartan för någon som inte har frågat"
+  },
+  {
+   "id": "2611-Gsv5",
+   "lang": "sv",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "har valt ett spel framför en dejt"
+  },
+  {
+   "id": "2611-Gsv6",
+   "lang": "sv",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "har en partner som blir ”GTA-änka” i höst"
+  },
+  {
+   "id": "2611-Gsv7",
+   "lang": "sv",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har väntat så länge på ett spel att du hunnit byta jobb, lägenhet eller partner"
+  },
+  {
+   "id": "2611-Gsv8",
+   "lang": "sv",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "parkerar sämst i verkligheten men tror att hen är proffs i spelet"
+  },
+  {
+   "id": "2611-Gda1",
+   "lang": "da",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har allerede taget fri den 19. november ”af helt andre grunde”"
+  },
+  {
+   "id": "2611-Gda2",
+   "lang": "da",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "forsvinder fra gruppechatten en hel uge efter den 19. november"
+  },
+  {
+   "id": "2611-Gda3",
+   "lang": "da",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har set en spiltrailer flere gange, end du har ringet til din mor i år"
+  },
+  {
+   "id": "2611-Gda4",
+   "lang": "da",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer til at forklare hele kortet for nogen, der ikke har spurgt"
+  },
+  {
+   "id": "2611-Gda5",
+   "lang": "da",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "har valgt et spil frem for en date"
+  },
+  {
+   "id": "2611-Gda6",
+   "lang": "da",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "har en kæreste, der bliver ”GTA-enke” i år"
+  },
+  {
+   "id": "2611-Gda7",
+   "lang": "da",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "har ventet så længe på et spil, at du har nået at skifte job, lejlighed eller kæreste"
+  },
+  {
+   "id": "2611-Gda8",
+   "lang": "da",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "parkerer værst i virkeligheden, men tror de er pro i spillet"
+  },
+  {
+   "id": "2611-Gen1",
+   "lang": "en",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "have already booked 19 November off for \"totally unrelated reasons\""
+  },
+  {
+   "id": "2611-Gen2",
+   "lang": "en",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "will vanish from the group chat for a week after 19 November"
+  },
+  {
+   "id": "2611-Gen3",
+   "lang": "en",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "have watched a game trailer more times than you've rung your mum this year"
+  },
+  {
+   "id": "2611-Gen4",
+   "lang": "en",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "will explain the whole map to someone who didn't ask"
+  },
+  {
+   "id": "2611-Gen5",
+   "lang": "en",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "have picked a game over a date"
+  },
+  {
+   "id": "2611-Gen6",
+   "lang": "en",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "has an other half who is about to become a \"GTA widow\""
+  },
+  {
+   "id": "2611-Gen7",
+   "lang": "en",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "have waited so long for a game that you've changed job, flat or partner in the meantime"
+  },
+  {
+   "id": "2611-Gen8",
+   "lang": "en",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "parks worst in real life but thinks they're a pro in-game"
   }
  ]
 }
