@@ -255,3 +255,5 @@ footer .footer-firma { color: var(--muted); }
 .lp-tips h3{font-size:22px;margin-bottom:6px}.lp-tips li{color:var(--muted)}
 .lp-more{margin-top:22px;color:var(--muted)}
 @media (max-width:900px){.hero.lp .wrap{grid-template-columns:1fr}.features.three{grid-template-columns:1fr}.lp-stage .cover{width:180px}}
+
+.h1-sub{margin:-6px 0 18px;font-size:18px;color:var(--muted);font-style:italic}
