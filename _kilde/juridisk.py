@@ -8,7 +8,7 @@ import datetime, pathlib, re, sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OPPDATERT = '8. oktober 2026'
 # Informasjonskapselsiden er ikke endret 8. oktober, så den beholder gammel dato.
-OPPDATERT_SIDE = {'informasjonskapsler': '7. oktober 2026'}
+OPPDATERT_SIDE = {'informasjonskapsler': '7. oktober 2026', 'konkurranse': '14. november 2026'}
 FIRMA = 'Snikkerbua Holding AS'
 ORGNR = '927 118 300'
 ADRESSE = 'Voldgata 27, 2000 Lillestrøm'
@@ -297,10 +297,48 @@ COOKIES = f"""
 <p>Les <a href="/personvern/">personvernerklæringen</a> for hvordan vi behandler personopplysninger i appen og på nettsidene. Spørsmål: {MAIL}.</p>
 """
 
+# Konkurranse på Instagram, november 2026. Svensk og engelsk versjon ligger på getbusted.online (/se/tavling/ og /giveaway/).
+KONKURRANSE = f"""
+<p>Dette er reklame for appen Get Busted. Her står vilkårene for giveawayen på kontoene våre på <a href="https://www.instagram.com/getbusted.no/">Instagram</a>, <a href="https://www.tiktok.com/@getbusted.no">TikTok</a> og <a href="https://www.facebook.com/getbusted.no">Facebook</a> (@getbusted.no). Det er én felles trekning for alle tre.</p>
+
+<h2>Kort fortalt</h2>
+<ul>
+<li>Premie: Busted+ i Get Busted, som låser opp alle pakker i appen, også de som kommer. 3 vinnere.</li>
+<li>Slik deltar du: kommenter under giveaway-innlegget på Instagram, TikTok eller Facebook og tagg dem du skal spille med.</li>
+<li>Frist: torsdag 19. november 2026 kl. 23.59. Vinnerne trekkes fredag 20. november 2026.</li>
+<li>Du må være minst 18 år og bo i Norge. Det koster ingenting å delta.</li>
+</ul>
+
+<h2>Arrangør</h2>
+<p>{FIRMA}, org.nr. {ORGNR}, {ADRESSE}. Spørsmål: {MAIL}.</p>
+
+<h2>Hvem kan delta</h2>
+<p>Du må være minst 18 år og bo i Norge. Du trenger ikke å kjøpe noe, laste ned appen eller følge kontoen for å være med. Ansatte og eiere hos arrangøren og deres nærmeste familie kan ikke vinne.</p>
+
+<h2>Slik deltar du</h2>
+<p>Skriv en kommentar under giveaway-innlegget fra @getbusted.no på Instagram, TikTok eller Facebook, og tagg minst én person du vil spille Get Busted med. Hver kommentar med tagg gir ett lodd, og du kan ha maks fem lodd til sammen på tvers av kanalene. Tagg bare ekte personer du kjenner, og ikke samme person flere ganger. Kommentarer fra falske kontoer, kommentarer som er slettet før trekningen, og kommentarer som bryter reglene til Instagram, TikTok eller Facebook, er ikke med.</p>
+
+<h2>Premie</h2>
+<p>Hver vinner får én kode til Busted+ i Get Busted for iPhone (App Store) eller Android (Google Play). Busted+ er et engangskjøp som låser opp alle pakker i appen, også pakker som kommer senere. Premien kan ikke byttes i penger eller andre varer, og kan ikke overføres. Koden må løses inn innen fristen som står i meldingen med koden.</p>
+
+<h2>Trekning og kunngjøring</h2>
+<p>Vi trekker 3 vinnere tilfeldig blant gyldige kommentarer fredag 20. november 2026. Ingen kan vinne mer enn én gang. Vinnerne får beskjed i en direktemelding fra @getbusted.no på kanalen de deltok fra, og vi skriver brukernavnene i kommentarfeltet under innlegget og i story. Svarer ikke en vinner innen 7 dager, trekker vi en ny. Vi spør aldri om passord, kortnummer eller betaling. Får du en slik melding, er det svindel.</p>
+
+<h2>Personopplysninger</h2>
+<p>Vi bruker bare brukernavnet ditt til trekningen og til å kontakte deg hvis du vinner. Vi lagrer ikke opplysningene etter at premiene er delt ut, utover det som trengs for å dokumentere trekningen. Les mer i <a href="/personvern/">personvernerklæringen</a>.</p>
+
+<h2>Instagram, TikTok og Facebook</h2>
+<p>Giveawayen er ikke sponset, støttet eller administrert av Instagram, Facebook, Meta eller TikTok, og har ingen tilknytning til dem. Ved å delta fritar du dem for ansvar knyttet til giveawayen.</p>
+
+<h2>Annet</h2>
+<p>Vi kan avslutte eller endre konkurransen hvis noe utenfor vår kontroll gjør det nødvendig, for eksempel juks eller tekniske feil. Endringer kunngjøres på denne siden og under innlegget.</p>
+"""
+
 PAGES = [
     ('personvern', 'Personvernerklæring', 'Hvordan Get Busted behandler personopplysninger i appen og på nettsidene.', PERSONVERN),
     ('vilkar', 'Bruksvilkår', 'Bruksvilkår for appen Get Busted og nettsidene getbusted.no og getbusted.online.', VILKAR),
     ('kjop', 'Kjøp, angrerett og refusjon', 'Slik fungerer kjøp i Get Busted, angrerett, refusjon og feil ved kjøp.', KJOP),
+    ('konkurranse', 'Giveaway: vinn Busted+', 'Vilkår for giveawayen på Instagram, TikTok og Facebook der du kan vinne Busted+ i Get Busted.', KONKURRANSE),
     ('informasjonskapsler', 'Informasjonskapsler og statistikk', 'Hva getbusted.no lagrer i nettleseren, og hvordan du endrer samtykket til statistikk.', COOKIES),
 ]
 
