@@ -173,6 +173,24 @@
     }
   }
 
+  // Hele året-stripa og toppbildene: sesongens pakke først, Halloween bakerst utenfor sesong
+  var gal = document.querySelector('.gal.year');
+  if (gal) {
+    var gp = {}; gal.querySelectorAll('.gp[data-pack]').forEach(function (a) { gp[a.getAttribute('data-pack')] = a; });
+    if (gp.halloween && season !== 'halloween') gal.appendChild(gp.halloween);
+    T.packs.slice().reverse().forEach(function (k) { if (gp[k] && k !== 'original') gal.insertBefore(gp[k], gal.firstChild); });
+    var lead = T.packs.filter(function (k) { return gp[k] && k !== 'original'; });
+    var covers = document.querySelectorAll('.hero .stage .cover');
+    var pick = lead.concat(['jul', 'hytta', 'reise', 'nach']).filter(function (k, i, a) { return a.indexOf(k) === i && gp[k] && (k !== 'halloween' || season === 'halloween'); });
+    covers.forEach(function (img, i) {
+      var k = pick[i]; if (!k) return;
+      img.src = '/img/cover_' + k + '.jpg';
+      img.style.setProperty('--c', gp[k].style.getPropertyValue('--c'));
+    });
+  }
+  // Pakkelista: Halloween bakerst i sin gruppe utenfor sesong
+  if (tiles.halloween && season !== 'halloween') tiles.halloween.parentNode.appendChild(tiles.halloween);
+
   // Pynt i toppen: fallende løv/snø/konfetti, stigende lys eller flaggermus
   var hero = document.querySelector('.hero');
   if (!hero || !window.HTMLCanvasElement) return;
