@@ -111,6 +111,21 @@ def hreflang(slug, url):
     return (f'<link rel="alternate" hreflang="no" href="{url}">\n<link rel="alternate" hreflang="en" href="{o}{en}">\n'
             f'<link rel="alternate" hreflang="sv" href="{o}{sv}">\n<link rel="alternate" hreflang="da" href="{o}{da}">\n<link rel="alternate" hreflang="x-default" href="{o}{en}">\n')
 
+def year_html():
+    # «Hele året»-stripa fra forsiden, med lenke til pakkelista der
+    import re as _re
+    idx = (ROOT / 'index.html').read_text(encoding='utf-8')
+    g = _re.search(r'<div class="gal year">.*?</div>\n    <p class="gal-more">.*?</p>', idx, _re.S).group(0)
+    g = g.replace('href="#pakker"', 'href="/#pakker"')
+    return f"""<section class="gallery">
+  <div class="wrap">
+    <p class="kicker">Ikke bare for én kveld</p>
+    <h2>En pakke for hver <em>sesong</em></h2>
+    <p class="lead">Get Busted har 18 pakker for hele året, så appen er like god lenge etter at denne kvelden er over.</p>
+    {g}
+  </div>
+</section>"""
+
 def page(p):
     url = f'{SITE}/{p["slug"]}/'
     cards = ''.join(f"<figure class='sample' style='--c:{p['color']}'><figcaption>{E(p['pack'])}</figcaption><p class='sample-head'>{E(h)}</p><blockquote>{E(t)}</blockquote></figure>" for h, t in p['cards'])
@@ -178,6 +193,8 @@ def page(p):
     <div class="lp-tips"><h3>Slik får dere mest ut av det</h3><ul>{tips}</ul></div>
   </div>
 </section>
+
+{year_html()}
 
 <section class="alt">
   <div class="wrap" style="max-width:820px">
