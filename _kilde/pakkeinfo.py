@@ -7,7 +7,7 @@ Smakebitene er nivå 1, uten drikke og uten spillernavn (nettsidene viser aldri 
 import json, re, sys, collections, random
 src, ut, langs = sys.argv[1], sys.argv[2], sys.argv[3:]
 cs = json.load(open(src, encoding='utf-8')); cs = cs if isinstance(cs, list) else cs['cards']
-DRIKK = re.compile(r'drikk|drick|drik|drink|slurk|klunk|tår\b|sip|shot|skål|skål|cheers|øl\b|öl\b|beer|vin\b|wine|sprit|vodka|tequila|champagne|alkohol|alcohol|fyll|full\b|fuld|drunk|bånn|botten|vors|förfest|pregame|promille|bakfull|bakrus|tømmermænd|hungover|bar\b|pub\b|baren|del ut|dela ut|deler ut|hand out|give out|uddel|giv \d|ge bort', re.I)
+DRIKK = re.compile(r'drikk|drick|drik|drink|slurk|klunk|tår\b|sip|shot|skål|skål|cheers|øl\b|öl\b|beer|vin\b|wine|sprit|vodka|tequila|champagne|alkohol|alcohol|fyll|full\b|fuld|drunk|bånn|botten|vors|förfest|pregame|promille|bakfull|bakrus|tømmermænd|hungover|bar\b|pub\b|baren|del ut|dela ut|deler ut|hand out|give out|uddel|giv \d|ge bort|trink|schluck|bier|wein\b|schnaps|prost|saufen|besoffen|kater\b|glühwein|kneipe|verteil', re.I)
 SAMPLE_TYPES = ['pekeleken', 'drikk_om', 'sannhet', 'navnekort']
 TYPER = {'drikk_om', 'pekeleken', 'navnekort', 'sannhet', 'duell', 'regel', 'hemmelig', 'runde', 'sang', 'quiz'}
 ut_data = {}
