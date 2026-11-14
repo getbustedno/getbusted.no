@@ -1,0 +1,451 @@
+{
+ "title": "Desember 2026",
+ "updated": "2026-12-01",
+ "cards": [
+  {
+   "id": "2611-01",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "fortsatt snakker om VM-sommeren som om de spilte selv"
+  },
+  {
+   "id": "2611-02",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "ropt «GOOOL!» i en situasjon som ikke hadde noe med fotball å gjøre"
+  },
+  {
+   "id": "2611-05",
+   "pack": "original",
+   "type": "regel",
+   "spice": 1,
+   "text": "Mørketid: de neste 5 kortene må alle snakke nordnorsk. Den som ler, drikker 1"
+  },
+  {
+   "id": "2611-10",
+   "pack": "fotball",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "fortsatt ikke har kommet over at Norge røk mot England i kvartfinalen"
+  },
+  {
+   "id": "2611-11",
+   "pack": "fotball",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "felt en tåre av en fotballkamp i sommer"
+  },
+  {
+   "id": "2611-12",
+   "pack": "fotball",
+   "type": "regel",
+   "spice": 1,
+   "text": "VAR: de neste 5 kortene kan hvem som helst rope «VAR!» og kreve at forrige kort leses på nytt. Tar de feil, drikker de 2"
+  },
+  {
+   "id": "2611-13",
+   "pack": "fotball",
+   "type": "duell",
+   "spice": 1,
+   "text": "{spiller} mot {spiller2}: gjør den beste målscoringsjubelen du har sett på TV. Bordet dømmer. Taper tar 3"
+  },
+  {
+   "id": "2611-14",
+   "pack": "fotball",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "plutselig heier på Glimt bare fordi de leder serien"
+  },
+  {
+   "id": "2611-15",
+   "pack": "fotball",
+   "type": "sannhet",
+   "spice": 1,
+   "text": "{spiller}: hvor mange timer VM-fotball så du i sommer, helt ærlig?"
+  },
+  {
+   "id": "2611-20",
+   "pack": "sport",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "ville tatt seks OL-gull i å ligge på sofaen"
+  },
+  {
+   "id": "2611-21",
+   "pack": "sport",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "sagt «nå begynner jeg å gå på ski» etter å ha sett Klæbo i OL"
+  },
+  {
+   "id": "2611-30",
+   "pack": "jul",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "ser på julekalenderen for barn helt alene"
+  },
+  {
+   "id": "2611-31",
+   "pack": "jul",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "kjøpt julegaver på Black Friday og beholdt dem selv"
+  },
+  {
+   "id": "2611-32",
+   "pack": "jul",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "ender opp med å klemme sjefen på julebordet i år"
+  },
+  {
+   "id": "2611-33",
+   "pack": "jul",
+   "type": "sannhet",
+   "spice": 1,
+   "text": "{spiller}: hvor mye har du brukt på julegaver før advent i år?"
+  },
+  {
+   "id": "2611-40",
+   "pack": "reise",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "får flyet kansellert og havner på en helt annen strand enn planlagt"
+  },
+  {
+   "id": "2611-41",
+   "pack": "reise",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "kjøpt en Syden-tur bare fordi flybilletten kostet noen hundrelapper"
+  },
+  {
+   "id": "2611-42",
+   "pack": "reise",
+   "type": "duell",
+   "spice": 1,
+   "text": "{spiller} mot {spiller2}: nevn flest flyplasser dere har vært forsinket på, på 15 sekunder. Taper tar 3"
+  },
+  {
+   "id": "2611-50",
+   "pack": "hytta",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "skrur opp alle ovnene på hytta og lar noen andre betale strømmen"
+  },
+  {
+   "id": "2611-51",
+   "pack": "hytta",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "kranglet om strømregningen på hytta"
+  },
+  {
+   "id": "2611-60",
+   "pack": "student",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "ville overlevd lengst på sovesal mens de venter på studentbolig"
+  },
+  {
+   "id": "2611-61",
+   "pack": "student",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "bodd et sted du ikke burde, bare for å slippe boligkøen"
+  },
+  {
+   "id": "2611-62",
+   "pack": "student",
+   "type": "navnekort",
+   "spice": 1,
+   "text": "{spiller}, hvem i rommet ville vært den verste romkameraten på sovesal? Den personen drikker 2"
+  },
+  {
+   "id": "2611-70",
+   "pack": "nach",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "fortsatt setter på 2016-låter på nachet som om det er i år"
+  },
+  {
+   "id": "2611-71",
+   "pack": "nach",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "sett VM-reprise klokka fire om natta på et nachspiel"
+  },
+  {
+   "id": "2611-80",
+   "pack": "utdrikning",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "ville tvunget utdrikningsgjengen til å se Norge-England på nytt"
+  },
+  {
+   "id": "2611-81",
+   "pack": "utdrikning",
+   "type": "navnekort",
+   "spice": 1,
+   "text": "{spiller}, gi bruden eller brudgommen et VM-kallenavn. Liker ikke bordet det, drikker du 2"
+  },
+  {
+   "id": "2612-no1",
+   "lang": "no",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "åpnet alle lukene i adventskalenderen den første helga"
+  },
+  {
+   "id": "2612-no2",
+   "lang": "no",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "angret på et Black Friday-kjøp før det i det hele tatt kom i posten"
+  },
+  {
+   "id": "2612-no3",
+   "lang": "no",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "delt Wrapped-en din og håpet ingen så hva som egentlig lå på toppen"
+  },
+  {
+   "id": "2612-no4",
+   "lang": "no",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "har vært på tre julebord allerede og fortsatt har to igjen"
+  },
+  {
+   "id": "2612-no5",
+   "lang": "no",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "tenner adventslys og glemmer dem til røykvarsleren sier fra"
+  },
+  {
+   "id": "2612-no6",
+   "lang": "no",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "får en julebordsflørt som varer helt til januar"
+  },
+  {
+   "id": "2612-no7",
+   "lang": "no",
+   "pack": "original",
+   "type": "sannhet",
+   "spice": 1,
+   "text": "{spiller}: hvilken sang på toppen av årets lytteliste skammer du deg mest over?"
+  },
+  {
+   "id": "2612-no8",
+   "lang": "no",
+   "pack": "original",
+   "type": "duell",
+   "spice": 1,
+   "text": "{spiller} mot {spiller2}: hvem har flest pakker på vei i posten akkurat nå? Vis appen. Flest taper og tar 3"
+  },
+  {
+   "id": "2612-sv1",
+   "lang": "sv",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "öppnat alla luckor i adventskalendern första helgen"
+  },
+  {
+   "id": "2612-sv2",
+   "lang": "sv",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "ångrat ett Black Friday-köp innan det ens kom med posten"
+  },
+  {
+   "id": "2612-sv3",
+   "lang": "sv",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "delat din Wrapped och hoppats att ingen såg vad som egentligen låg i topp"
+  },
+  {
+   "id": "2612-sv4",
+   "lang": "sv",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "har varit på tre julbord redan och har två kvar"
+  },
+  {
+   "id": "2612-sv5",
+   "lang": "sv",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "sjunger med i luciatåget på tv men kan bara första versen"
+  },
+  {
+   "id": "2612-sv6",
+   "lang": "sv",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "får en julbordsflirt som håller ända till januari"
+  },
+  {
+   "id": "2612-sv7",
+   "lang": "sv",
+   "pack": "original",
+   "type": "sannhet",
+   "spice": 1,
+   "text": "{spiller}: vilken låt i toppen av årets lyssningslista skäms du mest över?"
+  },
+  {
+   "id": "2612-sv8",
+   "lang": "sv",
+   "pack": "original",
+   "type": "duell",
+   "spice": 1,
+   "text": "{spiller} mot {spiller2}: vem har flest paket på väg med posten just nu? Visa appen. Flest förlorar och tar 3"
+  },
+  {
+   "id": "2612-da1",
+   "lang": "da",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "åbnet alle låger i julekalenderen den første weekend"
+  },
+  {
+   "id": "2612-da2",
+   "lang": "da",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "fortrudt et Black Friday-køb, før det overhovedet kom med posten"
+  },
+  {
+   "id": "2612-da3",
+   "lang": "da",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "delt din Wrapped og håbet, at ingen så, hvad der egentlig lå øverst"
+  },
+  {
+   "id": "2612-da4",
+   "lang": "da",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "har været til tre julefrokoster allerede og stadig har to tilbage"
+  },
+  {
+   "id": "2612-da5",
+   "lang": "da",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "glemmer at slukke kalenderlyset, så det brænder tre dage ned på én aften"
+  },
+  {
+   "id": "2612-da6",
+   "lang": "da",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "får en julefrokostflirt, der holder helt til januar"
+  },
+  {
+   "id": "2612-da7",
+   "lang": "da",
+   "pack": "original",
+   "type": "sannhet",
+   "spice": 1,
+   "text": "{spiller}: hvilken sang øverst på årets lytteliste skammer du dig mest over?"
+  },
+  {
+   "id": "2612-da8",
+   "lang": "da",
+   "pack": "original",
+   "type": "duell",
+   "spice": 1,
+   "text": "{spiller} mod {spiller2}: hvem har flest pakker på vej med posten lige nu? Vis appen. Flest taber og tager 3"
+  },
+  {
+   "id": "2612-en1",
+   "lang": "en",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "opened every door on your advent calendar in the first weekend"
+  },
+  {
+   "id": "2612-en2",
+   "lang": "en",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "regretted a Black Friday buy before it even arrived"
+  },
+  {
+   "id": "2612-en3",
+   "lang": "en",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 2,
+   "text": "shared your Wrapped and hoped nobody noticed what was really at the top"
+  },
+  {
+   "id": "2612-en4",
+   "lang": "en",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "has been to three Christmas dos already and still has two to go"
+  },
+  {
+   "id": "2612-en5",
+   "lang": "en",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "will wear a Christmas jumper every single day of December"
+  },
+  {
+   "id": "2612-en6",
+   "lang": "en",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 2,
+   "text": "will have a work do fling that lasts all the way to January"
+  },
+  {
+   "id": "2612-en7",
+   "lang": "en",
+   "pack": "original",
+   "type": "sannhet",
+   "spice": 1,
+   "text": "{spiller}: which song at the top of your listening stats this year are you most embarrassed about?"
+  },
+  {
+   "id": "2612-en8",
+   "lang": "en",
+   "pack": "original",
+   "type": "duell",
+   "spice": 1,
+   "text": "{spiller} vs {spiller2}: who has more parcels on the way right now? Show the app. Most loses and takes 3"
+  }
+ ]
+}
