@@ -179,6 +179,7 @@
     var gp = {}; gal.querySelectorAll('.gp[data-pack]').forEach(function (a) { gp[a.getAttribute('data-pack')] = a; });
     if (gp.halloween && season !== 'halloween') gal.appendChild(gp.halloween);
     T.packs.slice().reverse().forEach(function (k) { if (gp[k] && k !== 'original') gal.insertBefore(gp[k], gal.firstChild); });
+    gal.scrollLeft = 0; requestAnimationFrame(function () { gal.scrollLeft = 0; });
     var lead = T.packs.filter(function (k) { return gp[k] && k !== 'original'; });
     var covers = document.querySelectorAll('.hero .stage .cover');
     var pick = lead.concat(['jul', 'hytta', 'reise', 'nach']).filter(function (k, i, a) { return a.indexOf(k) === i && gp[k] && (k !== 'halloween' || season === 'halloween'); });
