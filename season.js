@@ -189,6 +189,15 @@
       img.style.setProperty('--c', gp[k].style.getPropertyValue('--c'));
     });
   }
+  // Pakkelista: sluppede pakker flyttes opp til «Ute nå», tomme grupper skjules
+  var firstPacks = tiles.original && tiles.original.parentNode;
+  if (firstPacks) {
+    Object.keys(tiles).forEach(function (k) {
+      var el = tiles[k];
+      if (el.parentNode !== firstPacks && el.getAttribute('data-release') && released(el)) firstPacks.appendChild(el);
+    });
+    document.querySelectorAll('#pakker .group').forEach(function (g) { if (!g.querySelector('.pack')) g.hidden = true; });
+  }
   // Pakkelista: Halloween bakerst i sin gruppe utenfor sesong
   if (tiles.halloween && season !== 'halloween') tiles.halloween.parentNode.appendChild(tiles.halloween);
 
