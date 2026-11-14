@@ -218,7 +218,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har allerede tatt fri 19. november «av helt andre grunner»"
+   "text": "allerede tatt fri 19. november «av helt andre grunner»"
   },
   {
    "id": "2611-Gno2",
@@ -234,7 +234,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har sett en spilltrailer flere ganger enn du har ringt mora di i år"
+   "text": "sett en spilltrailer flere ganger enn du har ringt mora di i år"
   },
   {
    "id": "2611-Gno4",
@@ -250,7 +250,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 2,
-   "text": "har valgt et spill foran en date"
+   "text": "valgt et spill foran en date"
   },
   {
    "id": "2611-Gno6",
@@ -266,7 +266,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har ventet så lenge på et spill at du har byttet jobb, bolig eller kjæreste i mellomtiden"
+   "text": "ventet så lenge på et spill at du har byttet jobb, bolig eller kjæreste i mellomtiden"
   },
   {
    "id": "2611-Gno8",
@@ -282,7 +282,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har redan tagit ledigt den 19 november ”av helt andra skäl”"
+   "text": "redan tagit ledigt den 19 november ”av helt andra skäl”"
   },
   {
    "id": "2611-Gsv2",
@@ -298,7 +298,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har sett en speltrailer fler gånger än du har ringt din mamma i år"
+   "text": "sett en speltrailer fler gånger än du har ringt din mamma i år"
   },
   {
    "id": "2611-Gsv4",
@@ -314,7 +314,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 2,
-   "text": "har valt ett spel framför en dejt"
+   "text": "valt ett spel framför en dejt"
   },
   {
    "id": "2611-Gsv6",
@@ -330,7 +330,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har väntat så länge på ett spel att du hunnit byta jobb, lägenhet eller partner"
+   "text": "väntat så länge på ett spel att du hunnit byta jobb, lägenhet eller partner"
   },
   {
    "id": "2611-Gsv8",
@@ -346,7 +346,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har allerede taget fri den 19. november ”af helt andre grunde”"
+   "text": "allerede taget fri den 19. november ”af helt andre grunde”"
   },
   {
    "id": "2611-Gda2",
@@ -362,7 +362,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har set en spiltrailer flere gange, end du har ringet til din mor i år"
+   "text": "set en spiltrailer flere gange, end du har ringet til din mor i år"
   },
   {
    "id": "2611-Gda4",
@@ -378,7 +378,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 2,
-   "text": "har valgt et spil frem for en date"
+   "text": "valgt et spil frem for en date"
   },
   {
    "id": "2611-Gda6",
@@ -394,7 +394,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "har ventet så længe på et spil, at du har nået at skifte job, lejlighed eller kæreste"
+   "text": "ventet så længe på et spil, at du har nået at skifte job, lejlighed eller kæreste"
   },
   {
    "id": "2611-Gda8",
@@ -410,7 +410,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "have already booked 19 November off for \"totally unrelated reasons\""
+   "text": "already booked 19 November off for \"totally unrelated reasons\""
   },
   {
    "id": "2611-Gen2",
@@ -426,7 +426,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "have watched a game trailer more times than you've rung your mum this year"
+   "text": "watched a game trailer more times than you've rung your mum this year"
   },
   {
    "id": "2611-Gen4",
@@ -442,7 +442,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 2,
-   "text": "have picked a game over a date"
+   "text": "picked a game over a date"
   },
   {
    "id": "2611-Gen6",
@@ -458,7 +458,7 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "have waited so long for a game that you've changed job, flat or partner in the meantime"
+   "text": "waited so long for a game that you've changed job, flat or partner in the meantime"
   },
   {
    "id": "2611-Gen8",
@@ -467,6 +467,70 @@
    "type": "pekeleken",
    "spice": 1,
    "text": "parks worst in real life but thinks they're a pro in-game"
+  },
+  {
+   "id": "2611-Sno1",
+   "lang": "no",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "sendt egenmelding fra sofaen med kontrollen i hånda"
+  },
+  {
+   "id": "2611-Sno2",
+   "lang": "no",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer til å ta egenmelding 19. november og kalle det «influensa»"
+  },
+  {
+   "id": "2611-Ssv1",
+   "lang": "sv",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "sjukanmält dig från soffan med handkontrollen i handen"
+  },
+  {
+   "id": "2611-Ssv2",
+   "lang": "sv",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer att sjukanmäla sig den 19 november och kalla det «influensa»"
+  },
+  {
+   "id": "2611-Sda1",
+   "lang": "da",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "meldt dig syg fra sofaen med controlleren i hånden"
+  },
+  {
+   "id": "2611-Sda2",
+   "lang": "da",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer til at melde sig syg den 19. november og kalde det «influenza»"
+  },
+  {
+   "id": "2611-Sen1",
+   "lang": "en",
+   "pack": "original",
+   "type": "drikk_om",
+   "spice": 1,
+   "text": "thrown a sickie from the sofa with the controller still in your hand"
+  },
+  {
+   "id": "2611-Sen2",
+   "lang": "en",
+   "pack": "original",
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "will throw a sickie on 19 November and call it «flu»"
   }
  ]
 }
