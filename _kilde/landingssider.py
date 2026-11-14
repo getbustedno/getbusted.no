@@ -206,6 +206,7 @@ def page(p):
 </section>
 </main>
 {FOOTER}
+<script src="/pakkeinfo.js" defer></script>
 </body>
 </html>
 '''
