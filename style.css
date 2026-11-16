@@ -264,3 +264,10 @@ footer .footer-firma { color: var(--muted); }
 .gp small { display: block; text-align: center; font-size: 12px; color: var(--muted); margin-top: 2px; letter-spacing: .3px; }
 .gal-more { margin-top: 14px; color: var(--muted); font-size: 15px; }
 .gal-more a { color: var(--lime, #B7D147); }
+
+.ga-strip{background:var(--lime);color:#1E1E1E;padding:14px 0}
+.ga-strip .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px}
+.ga-strip p{flex:1 1 320px;font-size:17px;line-height:1.35}
+.ga-tag{font-weight:900;font-style:italic;letter-spacing:.5px;background:#1E1E1E;color:var(--lime);border-radius:8px;padding:4px 10px}
+.ga-strip .btn-link{background:#1E1E1E;color:var(--lime);text-decoration:none;white-space:nowrap}
+.ga-vilkar{color:#1E1E1E;font-weight:700;font-size:15px}
