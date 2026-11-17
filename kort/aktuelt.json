@@ -1,6 +1,6 @@
 {
  "title": "November 2026",
- "updated": "2026-11-13",
+ "updated": "2026-11-17",
  "cards": [
   {
    "id": "2611-01",
@@ -218,63 +218,63 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "allerede tatt fri 19. november «av helt andre grunner»"
+   "text": "allerede tatt fri på slippdagen 19. november «av helt andre grunner»"
   },
   {
    "id": "2611-Gno2",
    "lang": "no",
    "pack": "original",
-   "type": "pekeleken",
+   "type": "drikk_om",
    "spice": 1,
-   "text": "kommer til å være borte fra gruppechatten en hel uke etter 19. november"
+   "text": "sett GTA 6-traileren flere ganger enn du har ringt mora di i år"
   },
   {
    "id": "2611-Gno3",
    "lang": "no",
    "pack": "original",
    "type": "drikk_om",
-   "spice": 1,
-   "text": "sett en spilltrailer flere ganger enn du har ringt mora di i år"
+   "spice": 2,
+   "text": "avlyst en date for å spille"
   },
   {
    "id": "2611-Gno4",
    "lang": "no",
    "pack": "original",
-   "type": "pekeleken",
+   "type": "drikk_om",
    "spice": 1,
-   "text": "kommer til å forklare hele kartet for noen som ikke har spurt"
+   "text": "kjøpt en TV eller konsoll «til hele husstanden» som egentlig bare var til deg"
   },
   {
    "id": "2611-Gno5",
    "lang": "no",
    "pack": "original",
-   "type": "drikk_om",
-   "spice": 2,
-   "text": "valgt et spill foran en date"
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer til å forsvinne fra gruppechatten en hel uke etter 19. november"
   },
   {
    "id": "2611-Gno6",
    "lang": "no",
    "pack": "original",
    "type": "pekeleken",
-   "spice": 2,
-   "text": "har en kjæreste som blir «GTA-enke» denne høsten"
+   "spice": 1,
+   "text": "parkerer verst i virkeligheten, men tror de er proff i GTA"
   },
   {
    "id": "2611-Gno7",
    "lang": "no",
    "pack": "original",
-   "type": "drikk_om",
+   "type": "pekeleken",
    "spice": 1,
-   "text": "ventet så lenge på et spill at du har byttet jobb, bolig eller kjæreste i mellomtiden"
+   "text": "kommer til å si «bare ett oppdrag til» klokka elleve og fortsatt sitte der når det lysner"
   },
   {
    "id": "2611-Gno8",
    "lang": "no",
    "pack": "original",
    "type": "pekeleken",
-   "spice": 1,
-   "text": "parkerer verst i virkeligheten, men tror de er proff i spillet"
+   "spice": 2,
+   "text": "kommer til å være mer lei seg når de har fullført GTA 6 enn etter forrige brudd"
   },
   {
    "id": "2611-Gsv1",
@@ -282,63 +282,63 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "redan tagit ledigt den 19 november ”av helt andra skäl”"
+   "text": "redan tagit ledigt på släppdagen 19 november ”av helt andra skäl”"
   },
   {
    "id": "2611-Gsv2",
    "lang": "sv",
    "pack": "original",
-   "type": "pekeleken",
+   "type": "drikk_om",
    "spice": 1,
-   "text": "försvinner från gruppchatten i en hel vecka efter 19 november"
+   "text": "sett GTA 6-trailern fler gånger än du har ringt din mamma i år"
   },
   {
    "id": "2611-Gsv3",
    "lang": "sv",
    "pack": "original",
    "type": "drikk_om",
-   "spice": 1,
-   "text": "sett en speltrailer fler gånger än du har ringt din mamma i år"
+   "spice": 2,
+   "text": "ställt in en dejt för att spela"
   },
   {
    "id": "2611-Gsv4",
    "lang": "sv",
    "pack": "original",
-   "type": "pekeleken",
+   "type": "drikk_om",
    "spice": 1,
-   "text": "kommer att förklara hela kartan för någon som inte har frågat"
+   "text": "köpt en tv eller konsol ”till hela hushållet” som egentligen bara var till dig"
   },
   {
    "id": "2611-Gsv5",
    "lang": "sv",
    "pack": "original",
-   "type": "drikk_om",
-   "spice": 2,
-   "text": "valt ett spel framför en dejt"
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer att försvinna från gruppchatten en hel vecka efter 19 november"
   },
   {
    "id": "2611-Gsv6",
    "lang": "sv",
    "pack": "original",
    "type": "pekeleken",
-   "spice": 2,
-   "text": "har en partner som blir ”GTA-änka” i höst"
+   "spice": 1,
+   "text": "parkerar sämst i verkligheten men tror att hen är proffs i GTA"
   },
   {
    "id": "2611-Gsv7",
    "lang": "sv",
    "pack": "original",
-   "type": "drikk_om",
+   "type": "pekeleken",
    "spice": 1,
-   "text": "väntat så länge på ett spel att du hunnit byta jobb, lägenhet eller partner"
+   "text": "kommer att säga ”bara ett uppdrag till” klockan elva och fortfarande sitta där när det ljusnar"
   },
   {
    "id": "2611-Gsv8",
    "lang": "sv",
    "pack": "original",
    "type": "pekeleken",
-   "spice": 1,
-   "text": "parkerar sämst i verkligheten men tror att hen är proffs i spelet"
+   "spice": 2,
+   "text": "kommer att vara ledsnare när hen har klarat GTA 6 än efter sitt senaste uppbrott"
   },
   {
    "id": "2611-Gda1",
@@ -346,63 +346,63 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "allerede taget fri den 19. november ”af helt andre grunde”"
+   "text": "allerede taget fri på udgivelsesdagen den 19. november ”af helt andre grunde”"
   },
   {
    "id": "2611-Gda2",
    "lang": "da",
    "pack": "original",
-   "type": "pekeleken",
+   "type": "drikk_om",
    "spice": 1,
-   "text": "forsvinder fra gruppechatten en hel uge efter den 19. november"
+   "text": "set GTA 6-traileren flere gange, end du har ringet til din mor i år"
   },
   {
    "id": "2611-Gda3",
    "lang": "da",
    "pack": "original",
    "type": "drikk_om",
-   "spice": 1,
-   "text": "set en spiltrailer flere gange, end du har ringet til din mor i år"
+   "spice": 2,
+   "text": "aflyst en date for at spille"
   },
   {
    "id": "2611-Gda4",
    "lang": "da",
    "pack": "original",
-   "type": "pekeleken",
+   "type": "drikk_om",
    "spice": 1,
-   "text": "kommer til at forklare hele kortet for nogen, der ikke har spurgt"
+   "text": "købt et tv eller en konsol ”til hele husstanden”, som egentlig kun var til dig"
   },
   {
    "id": "2611-Gda5",
    "lang": "da",
    "pack": "original",
-   "type": "drikk_om",
-   "spice": 2,
-   "text": "valgt et spil frem for en date"
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "kommer til at forsvinde fra gruppechatten en hel uge efter den 19. november"
   },
   {
    "id": "2611-Gda6",
    "lang": "da",
    "pack": "original",
    "type": "pekeleken",
-   "spice": 2,
-   "text": "har en kæreste, der bliver ”GTA-enke” i år"
+   "spice": 1,
+   "text": "parkerer værst i virkeligheden, men tror de er pro i GTA"
   },
   {
    "id": "2611-Gda7",
    "lang": "da",
    "pack": "original",
-   "type": "drikk_om",
+   "type": "pekeleken",
    "spice": 1,
-   "text": "ventet så længe på et spil, at du har nået at skifte job, lejlighed eller kæreste"
+   "text": "kommer til at sige ”bare én mission mere” klokken elleve og stadig sidde der, når det bliver lyst"
   },
   {
    "id": "2611-Gda8",
    "lang": "da",
    "pack": "original",
    "type": "pekeleken",
-   "spice": 1,
-   "text": "parkerer værst i virkeligheden, men tror de er pro i spillet"
+   "spice": 2,
+   "text": "bliver mere ked af det, når de har gennemført GTA 6, end efter deres sidste brud"
   },
   {
    "id": "2611-Gen1",
@@ -410,63 +410,63 @@
    "pack": "original",
    "type": "drikk_om",
    "spice": 1,
-   "text": "already booked 19 November off for \"totally unrelated reasons\""
+   "text": "already booked release day, 19 November, off for \"totally unrelated reasons\""
   },
   {
    "id": "2611-Gen2",
    "lang": "en",
    "pack": "original",
-   "type": "pekeleken",
+   "type": "drikk_om",
    "spice": 1,
-   "text": "will vanish from the group chat for a week after 19 November"
+   "text": "watched the GTA 6 trailer more times than you've rung your mum this year"
   },
   {
    "id": "2611-Gen3",
    "lang": "en",
    "pack": "original",
    "type": "drikk_om",
-   "spice": 1,
-   "text": "watched a game trailer more times than you've rung your mum this year"
+   "spice": 2,
+   "text": "cancelled a date to stay in and play"
   },
   {
    "id": "2611-Gen4",
    "lang": "en",
    "pack": "original",
-   "type": "pekeleken",
+   "type": "drikk_om",
    "spice": 1,
-   "text": "will explain the whole map to someone who didn't ask"
+   "text": "bought a TV or console \"for the whole household\" that was really just for you"
   },
   {
    "id": "2611-Gen5",
    "lang": "en",
    "pack": "original",
-   "type": "drikk_om",
-   "spice": 2,
-   "text": "picked a game over a date"
+   "type": "pekeleken",
+   "spice": 1,
+   "text": "will vanish from the group chat for a whole week after 19 November"
   },
   {
    "id": "2611-Gen6",
    "lang": "en",
    "pack": "original",
    "type": "pekeleken",
-   "spice": 2,
-   "text": "has an other half who is about to become a \"GTA widow\""
+   "spice": 1,
+   "text": "parks worst in real life but thinks they're a pro at GTA"
   },
   {
    "id": "2611-Gen7",
    "lang": "en",
    "pack": "original",
-   "type": "drikk_om",
+   "type": "pekeleken",
    "spice": 1,
-   "text": "waited so long for a game that you've changed job, flat or partner in the meantime"
+   "text": "will say \"just one more mission\" at 11pm and still be there when it gets light"
   },
   {
    "id": "2611-Gen8",
    "lang": "en",
    "pack": "original",
    "type": "pekeleken",
-   "spice": 1,
-   "text": "parks worst in real life but thinks they're a pro in-game"
+   "spice": 2,
+   "text": "will be more gutted finishing GTA 6 than after their last break-up"
   },
   {
    "id": "2611-Sno1",
